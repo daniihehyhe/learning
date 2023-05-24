@@ -4,6 +4,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        raleway: ['Raleway']
+      },
       colors: {
         'black': '#212B36',
         'silver': '#919EAB',
