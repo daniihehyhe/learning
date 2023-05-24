@@ -1,13 +1,15 @@
 import React from 'react'
-import { Header } from '../components/header/Header'
 import '../index.css'
+import Header  from '../components/header/Header'
+import Main from '../components/main/Main'
 
 export const CoursesLanding = () => {
   return (
 	<div>
 		<div className='container_global'>
 			<Header/>
-		</div>
+		<Main/>
+      		</div>
 	</div>
   )
 }

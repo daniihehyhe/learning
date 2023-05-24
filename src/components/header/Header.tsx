@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 import { Switch } from 'antd';
 
 
-export const Header:FC = () => {
+ const Header:FC = () => {
    const { t, i18n } = useTranslation();
 
   const changeLanguage = (checked: boolean) => {
@@ -46,5 +46,8 @@ export const Header:FC = () => {
 	  </button>
  </div>
 	</div>
+
   )
 }
+
+export default Header
