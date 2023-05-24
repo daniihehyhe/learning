@@ -1,10 +1,9 @@
 import React from 'react'
-import { useState } from 'react'
-import { CoursesLanding } from './pages/CoursesLanding'
 import './App.css'
+import { CoursesLanding } from './pages/CoursesLanding'
 
 function App() {
-  const [count, setCount] = useState(0)
+
   return (
     <>
       <CoursesLanding/>
