@@ -1,0 +1,10 @@
+{
+	"header":{
+		"blog": "Blog",
+		"detail": "Deatail",
+		"pages": "Pages",
+		"cours":"Cousrses",
+		"login": "Login",
+		"join": "Join us"
+	}
+}
