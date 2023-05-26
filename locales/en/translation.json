@@ -6,5 +6,8 @@
 		"cours":"Cousrses",
 		"login": "Login",
 		"join": "Join us"
+	},
+	"Connection":{
+		"title": "We Work With"
 	}
 }
