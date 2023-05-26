@@ -5,6 +5,9 @@
 		"pages": "Pages",
 		"cours":"Cousrses",
 		"login": "Login",
-		"join": "Join us"
+		"join": "Join us",
+		"bdetail" :"Blog Detail",
+		"contact": "Contact",
+		"about": "About"
 	}
 }
