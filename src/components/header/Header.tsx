@@ -10,20 +10,11 @@ import { toggleTheme } from "../../redux/slice/ThemeSlice";
 import useDarkMode from "../../hook/useDarkMode";
 import BurgerMenu from "./burger/BurgerMenu";
 
+
+
 const Header: FC = () => {
   const { t, i18n } = useTranslation();
-//  const dispatch = useAppDispatch();
-//  const isDarkMode = useAppSelector((state) => state.reducer);
 
-//  useEffect(() => {
-//    if (isDarkMode) {
-//      document.documentElement.classList.add("dark");
-//    } else {
-//      document.documentElement.classList.remove("dark");
-//    }
-//	 console.log(isDarkMode);
-//  }, [isDarkMode]);
-const [darkMode, setDarkMode] = useDarkMode()
 
   const changeLanguage = (checked: boolean) => {
     const lng = checked ? "ru" : "en";
@@ -67,4 +58,5 @@ const [darkMode, setDarkMode] = useDarkMode()
   );
 }
 
-export default Header
+
+export default Header;

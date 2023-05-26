@@ -12,6 +12,7 @@ export const CoursesLanding = () => {
       </div>
     </div>
   );
+
 }
 
 //dark:bg-blackc24
