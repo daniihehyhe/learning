@@ -11,13 +11,13 @@ export const HeaderDropDown:FC = () => {
       <label htmlFor="toggle">{t("header.pages")}</label>
       <ul className={styles.menu}>
         <li>
-          <Link to="/BlogDetail">Blog Detail</Link>
+          <Link to="/BlogDetail">{t("header.bdetail")}</Link>
         </li>
         <li>
-          <Link to="/Contact">Contact</Link>
+          <Link to="/Contact">{t("header.contact")}</Link>
         </li>
         <li>
-          <Link to="/About">About</Link>
+          <Link to="/About">{t("header.about")}</Link>
         </li>
       </ul>
     </div>

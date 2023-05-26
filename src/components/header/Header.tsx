@@ -25,50 +25,46 @@ const Header: FC = () => {
 //  }, [isDarkMode]);
 const [darkMode, setDarkMode] = useDarkMode()
 
-
-export const Header:FC = () => {
-   const { t, i18n } = useTranslation();
-
   const changeLanguage = (checked: boolean) => {
     const lng = checked ? "ru" : "en";
     i18n.changeLanguage(lng);
   };
 
 	return (
-	<div className='flex justify-between py-10'>
-<img src={logo} alt="" />
-<nav className='flex justify-between w-1/4' >
-	<h1 className='font-roboto'>
-		
-		{t("header.cours")}
-	</h1>
-	<h3 className='font-raleway'>
-		{t("header.detail")}
-	</h3>
-	<h3>
-		{t("header.pages")}
-	</h3>
-	<h3>
-		{t('header.blog')}
-	</h3>
-</nav>
- <div>
-	<Switch
-        checked={i18n.language === 'ru'}
-        checkedChildren="RU"
-        unCheckedChildren="EN"
-        onChange={changeLanguage}
-      />
-	  <button type='submit'>
-		{t("header.login")}
-	  </button>
-	  
-	  <button type='submit'>
-		{t("header.join")}
-	  </button>
- </div>
-	</div>
-  )
+    <div className="flex justify-between py-10 items-center">
+      <img src={logo} alt="" />
+      <nav className=" lg:flex hidden gap-8 items-center justify-between w-fit">
+        <h1 className="font-roboto">{t("header.cours")}</h1>
+        <h3>{t("header.detail")}</h3>
+        <h3>
+          <HeaderDropDown />
+        </h3>
+        <h3>{t("header.blog")}</h3>
+      </nav>
+      <div className="flex gap-2 items-center">
+        <Switch
+          checked={i18n.language === "ru"}
+          checkedChildren="RU"
+          unCheckedChildren="EN"
+          onChange={changeLanguage}
+        />
+        <Switch
+          checkedChildren="🌑"
+          unCheckedChildren="🌕"
+        />
+        <button type="submit">{t("header.login")}</button>
+
+        <button
+          className="bg-blackc24 px-4 text-white py-2 rounded-lg"
+          type="submit">
+          {t("header.join")}
+        </button>
+      </div>
+      <div className="lg:hidden">
+        <BurgerMenu />
+      </div>
+    </div>
+  );
 }
 
 export default Header
