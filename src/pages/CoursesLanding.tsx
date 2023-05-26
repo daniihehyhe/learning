@@ -5,11 +5,14 @@ import Main from '../components/main/Main'
 
 export const CoursesLanding = () => {
   return (
-	<div>
-		<div className='container_global'>
-			<Header/>
-		<Main/>
-      		</div>
-	</div>
-  )
+    <div>
+      <div className="container_global bg-white ">
+        <Header />
+        <Main />
+      </div>
+    </div>
+  );
+
 }
+
+//dark:bg-blackc24

@@ -2,6 +2,7 @@
 export default {
   content: [ './src/**/*.{js,ts,jsx,tsx}',
   ],
+ 
   theme: {
     extend: {
       fontFamily: {
@@ -30,10 +31,14 @@ export default {
         'semibold': 600,
         'bold':700
       },
+      backgroundColor:{
+        'blackc24': '#161C24' 
+      },
       boxShadow: {
         'playShadow': '0px 8px 16px rgba(34, 184, 207, 0.24)'
       }
     },
+    darkMode: 'class',
   },
   plugins: [],
 }

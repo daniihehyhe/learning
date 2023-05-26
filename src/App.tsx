@@ -1,13 +1,27 @@
 import React from 'react'
 import './App.css'
+import "tailwindcss/tailwind.css";
 import { CoursesLanding } from './pages/CoursesLanding'
-
+import {Routes, Route} from 'react-router-dom'
+import Blog from './pages/Blog'
+import BlogDeatal from './pages/BlogDeatal'
+import About from './pages/About'
+import { Contact } from './pages/Contact'
+import Deatail from './pages/Deatail'
+import List from './pages/List'
 function App() {
 
   return (
-    <>
-    <CoursesLanding/>
-    </>
+    <Routes>
+    <Route path='/' element={<CoursesLanding/>} />
+    <Route path='/Blog' element={<Blog/>} />
+    <Route path='/BlogDetail' element={<BlogDeatal/>} />
+    <Route path='/About' element={<About/>} />
+    <Route path='/Contact' element={<Contact/>} />
+    <Route path='/Detail' element={<Deatail/>} />
+    <Route path='/List' element={<List/>} />
+     
+    </Routes>
   )
 }
 
