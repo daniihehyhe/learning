@@ -1,5 +1,8 @@
 import React from 'react'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import './App.css'
+import Connection from './components/connection/Connection'
 import "tailwindcss/tailwind.css";
 import { CoursesLanding } from './pages/CoursesLanding'
 import {Routes, Route} from 'react-router-dom'
@@ -12,6 +15,10 @@ import List from './pages/List'
 function App() {
 
   return (
+    <>
+    <CoursesLanding/>
+    <Connection />
+    </>
     <Routes>
     <Route path='/' element={<CoursesLanding/>} />
     <Route path='/Blog' element={<Blog/>} />
@@ -20,8 +27,8 @@ function App() {
     <Route path='/Contact' element={<Contact/>} />
     <Route path='/Detail' element={<Deatail/>} />
     <Route path='/List' element={<List/>} />
-     
     </Routes>
+     </>
   )
 }
 
