@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .container_global{
 	padding: 0 144px;
 }
