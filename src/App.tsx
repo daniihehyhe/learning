@@ -1,4 +1,6 @@
 import React from 'react'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import './App.css'
 import Connection from './components/connection/Connection'
 import "tailwindcss/tailwind.css";
@@ -26,6 +28,7 @@ function App() {
     <Route path='/Detail' element={<Deatail/>} />
     <Route path='/List' element={<List/>} />
     </Routes>
+     </>
   )
 }
 

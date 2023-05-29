@@ -8,9 +8,13 @@
 
 @import 'tailwindcss/dist/tailwind.min.css';
 
+
+
+=======
 @media (prefers-color-scheme: dark) {
   @import 'tailwindcss-dark-mode/prefers-dark.css';
 }*/
+
 .container_global{
 	padding: 0 144px;
 }

@@ -9,5 +9,20 @@
 	},
 	"Connection":{
 		"title": "We Work With"
+		"join": "Join us",
+		"bdetail" :"Blog Detail",
+		"contact": "Contact",
+		"about": "About"
+	},
+	"footer":{
+		"discrip":"The starting point for your next project based on easy-to-customize Material-UI © helps you build apps faster and better.",
+		"info": " All rights reserved",
+		"enter": "Enter Your Email",
+		"help": "Help Center",
+		"term": "Terms of Service",
+		"title": "Register Now Forget 20% Discount Every Courses",
+		"regis": "Registre",
+		"text": "During my career, I missed more than 9,000 shots, lost almost 300 games. 26 times I was trusted to make the final winning shot, and I missed. I've been defeated over and over and over again. And that's why I succeeded.",
+		"gos":"© 2021. All rights reserved"
 	}
 }

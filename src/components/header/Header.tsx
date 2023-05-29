@@ -23,14 +23,22 @@ const Header: FC = () => {
 
 	return (
     <div className="flex justify-between py-10 items-center">
-      <img src={logo} alt="" />
+      <Link to="/">
+        <img src={logo} alt="" />
+      </Link>
       <nav className=" lg:flex hidden gap-8 items-center justify-between w-fit">
-        <h1 className="font-roboto">{t("header.cours")}</h1>
-        <h3>{t("header.detail")}</h3>
+        <h1 className="font-roboto">
+          <Link to="/list">{t("header.cours")}</Link>
+        </h1>
+        <h3>
+          <Link to="/detail">{t("header.detail")}</Link>
+        </h3>
         <h3>
           <HeaderDropDown />
         </h3>
-        <h3>{t("header.blog")}</h3>
+        <h3>
+          <Link to="/blog">{t("header.blog")}</Link>
+        </h3>
       </nav>
       <div className="flex gap-2 items-center">
         <Switch
@@ -39,10 +47,7 @@ const Header: FC = () => {
           unCheckedChildren="EN"
           onChange={changeLanguage}
         />
-        <Switch
-          checkedChildren="🌑"
-          unCheckedChildren="🌕"
-        />
+        <Switch checkedChildren="🌑" unCheckedChildren="🌕" />
         <button type="submit">{t("header.login")}</button>
 
         <button
