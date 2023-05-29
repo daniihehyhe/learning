@@ -5,6 +5,10 @@
 		"pages": "Pages",
 		"cours":"Cousrses",
 		"login": "Login",
+		"join": "Join us"
+	},
+	"Connection":{
+		"title": "We Work With"
 		"join": "Join us",
 		"bdetail" :"Blog Detail",
 		"contact": "Contact",
