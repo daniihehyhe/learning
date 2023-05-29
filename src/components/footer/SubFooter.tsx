@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 const SubFooter:FC = () => {
 const {t}= useTranslation()
   return (
-    <div className="flex mb-3 md:mb-40 mt-10">
+    <div className="flex mb-3 md:mb-20 mt-10">
       <main className="w-full flex flex-col-reverse md:flex-row bg-orange-100 p-28 justify-between gap-10 items-center rounded-lg">
         <section className="flex justify-center flex-col items-center text-center md:items-start md:w-1/2 md:text-left">
           <h1 className="font-roboto text-3xl font-medium">

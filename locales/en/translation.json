@@ -20,5 +20,10 @@
 		"regis": "Registre",
 		"text": "During my career, I missed more than 9,000 shots, lost almost 300 games. 26 times I was trusted to make the final winning shot, and I missed. I've been defeated over and over and over again. And that's why I succeeded.",
 		"gos":"© 2021. All rights reserved"
+	},
+	"mobile":{
+		"title":"Download App",
+		"qr":"Scan QR code to install on your device",
+		"download":"Download from"
 	}
 }
