@@ -12,7 +12,7 @@ export default {
       colors: {
         'black': '#212B36',
         'silver': '#919EAB',
-        'orange': '#FA541C',
+        'orange41c': '#FA541C',
         'descrColor': '#637381',
         'blue': '#22B8CF',
       },
@@ -32,7 +32,8 @@ export default {
         'bold':700
       },
       backgroundColor:{
-        'blackc24': '#161C24' 
+        'blackc24': '#161C24',
+        'orange41c': '#FA541C'
       },
       boxShadow: {
         'playShadow': '0px 8px 16px rgba(34, 184, 207, 0.24)'
