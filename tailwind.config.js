@@ -2,6 +2,7 @@
 export default {
   content: [ './src/**/*.{js,ts,jsx,tsx}',
   ],
+ 
   theme: {
     extend: {
       fontFamily: {
@@ -11,7 +12,7 @@ export default {
       colors: {
         'black': '#212B36',
         'silver': '#919EAB',
-        'orange': '#FA541C',
+        'orange41c': '#FA541C',
         'descrColor': '#637381',
         'blue': '#22B8CF',
       },
@@ -30,10 +31,17 @@ export default {
         'semibold': 600,
         'bold':700
       },
+      backgroundColor:{
+        'blackc24': '#161C24',
+        'orange41c': '#FA541C'
+      },
       boxShadow: {
-        'playShadow': '0px 8px 16px rgba(34, 184, 207, 0.24)'
+        'playShadow': '0px 8px 16px rgba(34, 184, 207, 0.24)',
+        'sliderShadow': '-16px 16px 56px -8px rgba(145, 158, 171, 0.16)',
+        'category': '-24px 24px 72px -8px rgba(145, 158, 171, 0.24)'
       }
     },
+    darkMode: 'class',
   },
   plugins: [
     require('tailwind-scrollbar')({ nocompatible: true }),
