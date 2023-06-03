@@ -31,7 +31,7 @@ function BlogPage() {
             </div>
         </div>
         <div className='sm:px-[20px] md:px-[100px] lg:px-[140px] mt-[100px] md:flex md:flex-wrap lg:gap-[50px] lg:justify-between'>
-            <div className='flex flex-col items-center md:flex-row md:flex-wrap md:w-full lg:justify-between lg:w-[65%] md:justify-between'>
+            <div className='flex flex-col items-center md:flex-row md:flex-wrap md:w-full lg:justify-start lg:gap-[32px] lg:w-[65%] md:justify-between'>
             {
                 blogData.map((item) => (
                     <div key={item.title} className="flex gap-5 flex-col h-[630px] w-[362px] border-[1px] mb-[32px] rounded-[10px] border-solid border-[#919EAB3D] md:w-[330px]">

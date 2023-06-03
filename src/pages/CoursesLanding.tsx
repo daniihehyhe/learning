@@ -1,11 +1,10 @@
-import React from 'react'
 import '../index.css'
 import Header  from '../components/header/Header'
 import Main from '../components/main/Main'
 import Featured from '../components/main/featured/Featured'
 import FeaturedCategory from '../components/main/featuredCategory/FeaturedCategory'
-import Footer from '../components/footer/Footer'
 import LatestPost from '../components/main/latest/LatestPost'
+import Slider from '../components/main/slider/Slider'
 
 
 
@@ -15,11 +14,11 @@ export const CoursesLanding = () => {
       <div className="container_global bg-white ">
         <Header />
         <Main />
-        <Featured/>
       </div>
+      <Featured/>
       <FeaturedCategory/>
+      <Slider/>
       <LatestPost/>
-      <Footer/>
     </div>
   );
 }
