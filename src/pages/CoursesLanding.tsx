@@ -8,12 +8,14 @@ import Slider from '../components/main/slider/Slider'
 
 
 
+
 export const CoursesLanding = () => {
   return (
     <div>
       <div className="container_global bg-white ">
         <Header />
         <Main />
+        <Featured/>
       </div>
       <Featured/>
       <FeaturedCategory/>
