@@ -89,7 +89,7 @@ function Featured() {
                                 </div>
                                 <div className='flex gap-3 items-center mt-5 px-8'>
                                     <img src={cooper} alt="Cooper" />
-                                    <div>Bessie Cooper</div>
+                                    <div className='text-[#212B36] text-[14px] font-regular'>Bessie Cooper</div>
                                 </div>
                                 <hr className='my-6 w-[322px] border-dashed mx-auto'/>
                                 <div className='flex pl-6 gap-4 items-end'>

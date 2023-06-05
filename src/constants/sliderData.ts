@@ -15,6 +15,11 @@ import list8 from '../components/list/assets/IMG-7.svg'
 import star1 from '../components/list/assets/rating.svg'
 import star2 from '../components/list/assets/rating-1.svg'
 import star3 from '../components/list/assets/rating-2.svg'
+import icon1 from '../components/about/assets/about_icon1.svg'
+import icon2 from '../components/about/assets/about_icon2.svg'
+import icon3 from '../components/about/assets/about_icon3.svg'
+import icon4 from '../components/about/assets/about_icon4.svg'
+
 
 
 
@@ -143,6 +148,40 @@ export const latestData = [
     },
 ]
 
+
+
+export const recentData = [
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest3,
+        month: 'Dec',
+        day: 29,
+        title: "Thinking About Event? 7 Reasons Why It's ...",
+        name: 'Marvin McKinney'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+]
+
+
 export interface IList {
     img:string,
     title: string,
@@ -269,4 +308,120 @@ export const filteredData =[
         }
     },
     
+
+
+export const blogData = [
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest3,
+        month: 'Dec',
+        day: 29,
+        title: "Thinking About Event? 7 Reasons Why It's ...",
+        name: 'Marvin McKinney'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest3,
+        month: 'Dec',
+        day: 29,
+        title: "Thinking About Event? 7 Reasons Why It's ...",
+        name: 'Marvin McKinney'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
 ]
+
+
+export interface IAbout {
+    title: string,
+    count: string,
+    descr: string
+}
+
+export const aboutData = [
+    {
+        title: "Learners",
+        count: '14k+',
+        descr: 'Ut varius tincidunt libero. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.'
+    },
+    {
+        title: "Courses",
+        count: '1.05k+',
+        descr: 'Ut varius tincidunt libero. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.'
+    },
+    {
+        title: "Graduates",
+        count: '52k+',
+        descr: 'Ut varius tincidunt libero. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.'
+    },
+
+]
+
+export interface ICore {
+    img:string,
+    title: string,
+    subtitle: string,
+}
+
+export const coreData = [
+    {
+        img:icon1 ,
+        title: 'Structured Approach',
+        subtitle: 'Aenean urna dictum adipiscing nec, cras quisque.',
+    },
+    {
+        img: icon2,
+        title: 'Professional Feedbacks',
+        subtitle: 'Aenean urna dictum adipiscing nec, cras quisque.',
+    },
+    {
+        img: icon3,
+        title: 'Efficiency',
+        subtitle: 'Aenean urna dictum adipiscing nec, cras quisque.',
+    },
+    {
+        img: icon4,
+        title: 'Flexible Schedule',
+        subtitle: 'Aenean urna dictum adipiscing nec, cras quisque.',
+    },
+
+]
+

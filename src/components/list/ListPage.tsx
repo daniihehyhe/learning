@@ -9,7 +9,7 @@ import down from './assets/down.svg'
 import { Pagination } from '@mui/lab';
 import { PaginationProps } from 'antd';
 import { useState } from 'react';
-import Footer from '../footer/Footer'
+
 
 
 
