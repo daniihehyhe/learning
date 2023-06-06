@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Connection from './components/connection/Connection'
+import CoursesIn1 from './pages/CourcesIn1/CoursesIn1'
 import { CoursesLanding } from './pages/CoursesLanding'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
     <CoursesLanding/>
     <Connection />
+    <CoursesIn1/>
     </>
   )
 }
