@@ -326,6 +326,188 @@ export const blogData = [
         name: 'Cody Fisher'
     },
     {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest3,
+        month: 'Dec',
+        day: 29,
+        title: "Thinking About Event? 7 Reasons Why It's ...",
+        name: 'Marvin McKinney'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest3,
+        month: 'Dec',
+        day: 29,
+        title: "Thinking About Event? 7 Reasons Why It's ...",
+        name: 'Marvin McKinney'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest3,
+        month: 'Dec',
+        day: 29,
+        title: "Thinking About Event? 7 Reasons Why It's ...",
+        name: 'Marvin McKinney'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest3,
+        month: 'Dec',
+        day: 29,
+        title: "Thinking About Event? 7 Reasons Why It's ...",
+        name: 'Marvin McKinney'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest3,
+        month: 'Dec',
+        day: 29,
+        title: "Thinking About Event? 7 Reasons Why It's ...",
+        name: 'Marvin McKinney'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest3,
+        month: 'Dec',
+        day: 29,
+        title: "Thinking About Event? 7 Reasons Why It's ...",
+        name: 'Marvin McKinney'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
+        img: latest1,
+        month: 'jul',
+        day: 12,
+        title: 'The 7 Best Things About Event',
+        name: 'Arlene McCoy'
+    },
+    {
+        img: latest2,
+        month: 'sep',
+        day: 24,
+        title: 'Event Is Your Worst Enemy. 7 Ways To Defeat It',
+        name: 'Cody Fisher'
+    },
+    {
         img: latest3,
         month: 'Dec',
         day: 29,

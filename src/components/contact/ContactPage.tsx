@@ -25,7 +25,26 @@ function ContactPage() {
             link: '3891 Ranchview Dr. Richardson, California 62639'
         },
     ]
-    const socialData = [social1,social2,social3,social4]
+    const socialData = [
+        {
+            img: social1,
+            href: 'https://www.facebook.com/'
+        },
+        {
+            img: social2,
+            href: 'https://www.instagram.com/'
+        },
+        {
+            img: social3,
+            href: 'https://www.linkedin.com/'
+        },
+        {
+            img: social4,
+            href: 'https://www.twitter.com/'
+        },
+        
+
+    ]
   return (
     <div>
         <div className='bg-[#F9FAFB] md:py-[80px] md:px-[100px] lg:px-[144px] px-[20px] py-[64px] flex flex-col items-center md:flex-row md:justify-between'>
@@ -51,14 +70,14 @@ function ContactPage() {
                 <div className='flex mt-[26px] items-center justify-center gap-[32px] mb-[74px] md:justify-start'>
                     {
                         socialData.map((item) => (
-                            <img key={item} src={item} alt="" />
+                           <a  key={item.href} href={item.href} target="blunk"> <img src={item.img} alt="" /></a>
                         ))
                     }
                 </div>
             </div>
             <div>
                 {/* @ts-ignore */}
-            <iframe className='lg:w-[662px] lg:h-[498px]' width="335" height="335" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=662&amp;height=498&amp;hl=en&amp;q=ahunbaeva%20133%20bishkek+(bishkek)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            <iframe className='lg:w-[662px] lg:h-[498px] lg:rounded-[16px]' width="335" height="335" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=662&amp;height=498&amp;hl=en&amp;q=ahunbaeva%20133%20bishkek+(bishkek)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
             </div>
         </div>
         <div className='pt-[64px] px-[20px] flex items-center justify-center md:justify-between md:gap-[50px] md:px-[100px] md:py-[80px] lg:px-[144px]'>

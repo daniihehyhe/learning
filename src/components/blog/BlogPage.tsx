@@ -1,16 +1,46 @@
 import bg from './assets/iMG.svg'
+import axios from "axios";
 import cooper from '../main/featured/assets/cooper.svg'
 import { blogData, recentData } from '../../constants/sliderData'
-import { Pagination } from '@mui/lab';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import blog from './assets/blog_img.svg'
+import { Pagination } from "antd";
+import '../../App.css'
+
+
+interface NewsData {
+    author: string;
+    title: string;
+    description: string;
+    urlToImage: string;
+    publishedAt: string;
+    content: string;
+}
 
 function BlogPage() {
-    const [page, setPage] = useState(1);
+    // const [news, setNews] = useState<NewsData[]>([]);
+    const [currentPage, setCurrentPage] = useState<number>(1);
 
-    const handlePageChange = (event:any, value:number) => {
-        setPage(value);
+    const handlePageChange = (page: number) => {
+      setCurrentPage(page);
     };
+    const displayedNews = blogData.slice((currentPage - 1) * 8, currentPage * 8);
+
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //       try {
+    //         const response = await axios.get(
+    //           "https://newsapi.org/v2/everything?q=Apple&from=2023-05-26&sortBy=popularity&apiKey=a6763d06b47f48d1aecb11d38466cfcf"
+    //         );
+    //         console.log(response);
+    //         setNews(response.data.articles);
+    //       } catch (error) {
+    //         console.error("Error fetching news:", error);
+    //       }
+    //     };
+    
+    //     fetchData();
+    //   }, []);
 
     const liData = ['Marketing', 'Community', 'Tutorials', 'Business', 'Management']
     const tagData = ['Marketing', 'Development', 'Banking', 'HR & Recruting', 'Design' , 'Management', 'Business', 'Community', 'Tutorials']
@@ -33,8 +63,8 @@ function BlogPage() {
         <div className='sm:px-[20px] md:px-[100px] lg:px-[140px] mt-[100px] md:flex md:flex-wrap lg:gap-[50px] lg:justify-between'>
             <div className='flex flex-col items-center md:flex-row md:flex-wrap md:w-full lg:justify-start lg:gap-[32px] lg:w-[65%] md:justify-between'>
             {
-                blogData.map((item) => (
-                    <div key={item.title} className="flex gap-5 flex-col h-[630px] w-[362px] border-[1px] mb-[32px] rounded-[10px] border-solid border-[#919EAB3D] md:w-[330px]">
+                displayedNews.map((item) => (
+                    <div key={item.title} className="flex gap-5 flex-col h-[580px] w-[362px] border-[1px] mb-[32px] rounded-[10px] border-solid border-[#919EAB3D] md:w-[330px]">
                         <img className="rounded-[10px] w-full h-[362px] rounded-b-none md:h-[328px]" src={item.img} alt="Latest" />
                         <div className="p-[24px] flex gap-5">
                             <div className="flex flex-col gap-3">
@@ -43,7 +73,7 @@ function BlogPage() {
                                 <div className="sm:block text-[#212B36] text-[30px] font-bold">{item.day}</div>
                             </div>
                             <div>
-                                <div className="text-[19px] text-[#212B36] font-semibold leading-[26px]">{item.title}</div>
+                                <div className="text-[17px] text-[#212B36] font-semibold leading-[26px]">{item.title}</div>
                                 <div className="sm:block text-[#637381] text-[14px] font-regular mt-[8px]">Moment in the life of any aspiring astronomer of that it is time to.</div>
                                 <div className="mt-[23px] flex gap-3">
                                     <img className="sm:block" src={cooper} alt="cooper" />
@@ -58,7 +88,7 @@ function BlogPage() {
                 ))
             }
                 <div className='mx-auto mb-[50px]'>
-                    <Pagination
+                    {/* <Pagination
                         count={10}
                         page={page} 
                         onChange={handlePageChange} 
@@ -68,6 +98,18 @@ function BlogPage() {
                             backgroundColor: 'rgba(250, 84, 28, 0.08) !important',
                             },
                         }}
+                    /> */}
+                    <Pagination
+                    current={currentPage}
+                    total={blogData.length}
+                    pageSize={8}
+                    onChange={handlePageChange}
+                    itemRender={(page, type, originalElement) => {
+                        if (type === 'page' && page === currentPage) {
+                          return <span style={{ color: 'rgb(250, 84, 28)'}}>{page}</span>
+                        }
+                        return originalElement;
+                      }}
                     />
                 </div>
             </div>

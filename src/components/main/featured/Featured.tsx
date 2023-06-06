@@ -58,16 +58,18 @@ function Featured() {
 
   return (
     
-    <div>
-        <div className='text-black text-[32px] font-bold mt-20 text-center md:text-left' >Featured Courses</div>
-        <div className="flex items-center justify-between flex-col md:flex-row">
-            <div className='text-[#637381] mt-2 font-regular text-center text-[16px]'>Nullam accumsan lorem in dui. Praesent ac massa at ligula laoreet iaculis.</div>
-            <div className=" flex mt-8 gap-8">
-                {/* @ts-ignore */}
-                <button onClick={() => arrowRef.current.slickPrev()}><img src={prev} alt='Prev'/></button>
-                {/* @ts-ignore */}
-                <button onClick={() => arrowRef.current.slickNext()}><img src={next} alt='Prev'/></button>
-            </div>
+    <div className="dark:bg-[#161C24]">
+        <div className='lg:px-[144px] px-[20px] md:px-[40px]'>
+          <div className='text-black text-[32px] font-bold pt-20 text-center md:text-left' >Featured Courses</div>
+          <div className="flex items-center justify-between flex-col md:flex-row">
+              <div className='text-[#637381] mt-2 font-regular text-center text-[16px]'>Nullam accumsan lorem in dui. Praesent ac massa at ligula laoreet iaculis.</div>
+              <div className=" flex mt-8 gap-8">
+                  {/* @ts-ignore */}
+                  <button onClick={() => arrowRef.current.slickPrev()}><img src={prev} alt='Prev'/></button>
+                  {/* @ts-ignore */}
+                  <button onClick={() => arrowRef.current.slickNext()}><img src={next} alt='Prev'/></button>
+              </div>
+          </div>
         </div>
         <div className='mt-20'>
             <Slider {...settings} ref={arrowRef}>

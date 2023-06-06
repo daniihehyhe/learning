@@ -3,7 +3,7 @@ import { categoryData } from '../../../constants/sliderData'
 
 function FeaturedCategory() {
   return (
-    <div className='px-[20px] py-[80px] bg-[#F9FAFB] sm:px-[60px] lg:px-[144px] lg:py-[120px]'>
+    <div className='px-[20px] py-[80px] bg-[#F9FAFB] sm:px-[60px] lg:px-[144px] lg:py-[120px] dark:bg-[#161C24] dark:opacity-[0.95]' >
         <div className='lg:flex lg:justify-between lg:items-start lg: gap-[100px]'>
             <div className='lg:w-[368px]'>
                 <div className='text-black text-[32px] font-bold text-center lg:text-left'>Featured Category</div>
