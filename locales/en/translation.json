@@ -8,11 +8,36 @@
 		"join": "Join us"
 	},
 	"Connection":{
-		"title": "We Work With"
+		"title": "We Work With",
 		"join": "Join us",
 		"bdetail" :"Blog Detail",
 		"contact": "Contact",
 		"about": "About"
+	},
+	"teachers":{
+		"title": "Meet Our Teachers",
+		"description": "Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases",
+		"designer" :"UI Designer",
+		"manager": "Hr Manager",
+		"Leader": "Leader",
+		"project": "Project Manager"
+	},
+	"courses":{
+		"p": "8 minutes read",
+		"title": "The Complete Digital Marketing Course - 12 Courses in 1",
+		"name" :"Jane Cooper",
+		"marketing" :"Marketing",
+		"development": "Development",
+		"hr": "HR & Recruting",
+		"design": "Design",
+		"management": "Management",
+		"tags" :"Tags:",
+		"share": "Share:",
+		"name2" :"Courtney Henry",
+		"curator" :"Curator of Marketing Course",
+		"yaer": "Member since Mar 15, 2021",
+		"h1" :"Latest Posts",
+		"button" :"View All →"
 	},
 	"footer":{
 		"discrip":"The starting point for your next project based on easy-to-customize Material-UI © helps you build apps faster and better.",

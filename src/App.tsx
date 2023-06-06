@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './App.css'
 import Connection from './components/connection/Connection'
+import CoursesIn1 from './pages/CourcesIn1/CoursesIn1'
 import "tailwindcss/tailwind.css";
 import { CoursesLanding } from './pages/CoursesLanding'
 import {Routes, Route} from 'react-router-dom'
@@ -26,6 +27,7 @@ function App() {
         };
       }, [theme]);
   return (
+    <>
     <div className={`${theme ? "dark" : ""}`}>
       <Routes>
         <Route path="/" element={<CoursesLanding />} />
@@ -38,6 +40,7 @@ function App() {
       </Routes>
       <Footer/>
     </div>
+    </>
   );
 }
 
