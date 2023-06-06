@@ -9,6 +9,7 @@ import { useAppSelector } from '../redux/hook'
 
 
 
+
 export const CoursesLanding = () => {
   const theme = useAppSelector((state) => state.reducer.value);
   return (
@@ -16,6 +17,7 @@ export const CoursesLanding = () => {
       <div className="container_global bg-white  dark:bg-[#161C24]">
         <Header/>
         <Main />
+        <Featured/>
       </div>
       <Featured/>
       <FeaturedCategory/>

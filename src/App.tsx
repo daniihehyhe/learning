@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './App.css'
+import Connection from './components/connection/Connection'
 import "tailwindcss/tailwind.css";
 import { CoursesLanding } from './pages/CoursesLanding'
 import {Routes, Route} from 'react-router-dom'

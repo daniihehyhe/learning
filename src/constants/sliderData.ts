@@ -23,6 +23,7 @@ import icon4 from '../components/about/assets/about_icon4.svg'
 
 
 
+
 export interface ISlider {
     img: string,
     price: number,
@@ -148,6 +149,7 @@ export const latestData = [
 ]
 
 
+
 export const recentData = [
     {
         img: latest1,
@@ -178,6 +180,7 @@ export const recentData = [
         name: 'Arlene McCoy'
     },
 ]
+
 
 export interface IList {
     img:string,
@@ -305,7 +308,7 @@ export const filteredData =[
         }
     },
     
-]
+
 
 export const blogData = [
     {
@@ -603,3 +606,4 @@ export const coreData = [
     },
 
 ]
+
