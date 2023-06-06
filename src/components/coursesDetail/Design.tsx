@@ -16,7 +16,7 @@ import { useTranslation } from 'react-i18next';
 
 const Design:FC = () => {
 	const {t} =useTranslation()
-	const embedUrl = `http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunnya.mp4`;
+	const embedUrl = `http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4`;
   return (
     <div className=" bg-gray-100 container_global py-10">
       <Breadcrumb

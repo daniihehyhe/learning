@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './App.css'
@@ -12,9 +12,19 @@ import { Contact } from './pages/Contact'
 import Deatail from './pages/Deatail'
 import List from './pages/List'
 import { useAppSelector } from './redux/hook';
-function App() {
+import Footer from './components/footer/Footer';
 
+
+
+function App() {
   const theme = useAppSelector((state) => state.reducer.value);
+
+    useEffect(() => {
+        document.body.style.backgroundColor = `${!theme ? 'white' : '#161C24'}`;
+        return () => {
+          document.body.style.backgroundColor = '';
+        };
+      }, [theme]);
   return (
     <div className={`${theme ? "dark" : ""}`}>
       <Routes>
@@ -26,6 +36,7 @@ function App() {
         <Route path="/Detail" element={<Deatail />} />
         <Route path="/List" element={<List />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

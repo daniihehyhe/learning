@@ -45,6 +45,7 @@ export default {
       },
     },
   },
+  plugins: [],
   darkMode: 'class',
   variants: {
     extend: {
@@ -52,4 +53,5 @@ export default {
       textColor: ['dark'],
     },
   },
-};
+}
+
