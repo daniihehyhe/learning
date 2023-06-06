@@ -6,6 +6,8 @@ import FeaturedCategory from '../components/main/featuredCategory/FeaturedCatego
 import LatestPost from '../components/main/latest/LatestPost'
 import Slider from '../components/main/slider/Slider'
 import { useAppSelector } from '../redux/hook'
+import Connection from '../components/connection/Connection'
+import Teachers from '../components/main/teachers/Teachers'
 
 
 
@@ -17,10 +19,11 @@ export const CoursesLanding = () => {
       <div className="container_global bg-white  dark:bg-[#161C24]">
         <Header/>
         <Main />
+        <Connection/>
         <Featured/>
       </div>
-      <Featured/>
       <FeaturedCategory/>
+      <Teachers/>
       <Slider/>
       <LatestPost/>
     </div>

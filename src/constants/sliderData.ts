@@ -307,7 +307,7 @@ export const filteredData =[
             option3: 'item3',
         }
     },
-    
+]
 
 
 export const blogData = [

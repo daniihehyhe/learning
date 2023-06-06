@@ -14,6 +14,7 @@ import twitter from './assets/twitter.png';
 import linkedin from './assets/linkedin.png';
 import avatar from './assets/avatar.png';
 import social from './assets/social.png';
+import LatestPost from '../main/latest/LatestPost';
 
 
 
@@ -41,7 +42,7 @@ function CoursesIn1() {
                         metus varius laoreet. Praesent egestas tristique nibh.
                     </p>
                 </div>
-                <div className='px-[100px] py-[48px]'>
+                <div className=' py-[48px]'>
                     <hr className='h-[1px] border text-gray-500' />
                     <div className='py-[24px] flex'>
                         <img src={person} alt="" />
@@ -57,7 +58,7 @@ function CoursesIn1() {
                     <hr className='h-[1px] border text-gray-500' />
                 </div>
 
-                <div className='px-[100px]'>
+                <div className=''>
                     <div className='flex gap-[15px]'>
                         <p className='text-[80px] font-bold'>P</p>
                         <p className='mt-[27px] w-[682px] text-4 font-normal leading-7'>
@@ -107,7 +108,7 @@ function CoursesIn1() {
                 </div>
             </div>
 
-            <div className='px-[440px]'>
+            <div className='px-[340px]'>
                 <div className='flex gap-6 my-[50px] '>
                     <p>{t("courses.tags")}</p>
                     <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.marketing")}</div>
@@ -125,7 +126,7 @@ function CoursesIn1() {
                 </div>
             </div>
 
-            <div className='flex flex-col gap-[64px] py-[66px] px-[440px]'>
+            <div className='flex flex-col gap-[64px] py-[66px] px-[340px]'>
                 <hr className='h-[1px] border text-gray-500' />
                 <div className='flex gap-8'>
                     <img className='h-[90px]' src={avatar} alt="" />
@@ -147,11 +148,8 @@ function CoursesIn1() {
                 <hr className='h-[1px] border text-gray-500' />
             </div>
 
-            <div className='px-[144px] py-[100px]'>
-                <div className='flex'>
-                    <h1 className=' text-5xl font-bold'>{t("courses.h1")}</h1>
-                    <button className='ml-[930px] cursor-pointer text-orange font-semibold'>{t("courses.button")}</button>
-                </div>
+            <div className='py-[100px]'>
+                <LatestPost/>
             </div>
         </>
     )
