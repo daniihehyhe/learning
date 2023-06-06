@@ -42,8 +42,15 @@ export default {
         'list': '-16px 16px 56px -8px rgba(145, 158, 171, 0.16)'
       }
     },
-    darkMode: 'class',
   },
   plugins: [],
+  darkMode: 'class',
+
+  variants: {
+    extend: {
+      backgroundColor: ['dark'],
+      textColor: ['dark'],
+    },
+  },
 }
 

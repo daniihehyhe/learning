@@ -5,7 +5,7 @@ import orangeRight from '../assets/orangeRight.svg'
 
 function LatestPost() {
   return (
-    <div className='px-[20px] py-[64px] sm:px-[60px] md:px-[100px] lg:px-[144px]'>
+    <div className='px-[20px] py-[64px] sm:px-[60px] md:px-[100px] lg:px-[144px] dark:bg-[#161C24]'>
         <div className="flex justify-between">
             <div className='text-[32px] font-bold text-[#212B36] text-center lg:text-left'>Latest Posts</div>
             <div className="items-center gap-5 justify-center hidden lg:flex">

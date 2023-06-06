@@ -15,8 +15,8 @@ const Footer:FC = () => {
   const{t}= useTranslation()
   return (
     <>
-        <SubFooter />
-      <div className="container_global">
+        <SubFooter/>
+      <div className="container_global dark:bg-[#161C24]">
         <footer className="flex flex-col md:flex-row items-center gap-3 font-raleway">
           <main className="w-full flex flex-col justify-center md:items-start items-center md:w-1/3">
             <img src={logo} alt="logo" />
@@ -51,7 +51,7 @@ const Footer:FC = () => {
             </div>
           </main>
         </footer>
-        <section className="flex justify-between my-5 font-raleway">
+        <section className="flex justify-between py-5 font-raleway">
           <div>© 2021.{t("footer.info")}</div>
           <div>
             <span>{t("footer.help")}</span>
