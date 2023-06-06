@@ -11,11 +11,7 @@ import airbnb from './assets/airbnb.png';
 
 
 function Connection() {
-
     const { t } = useTranslation();
- 
-
-
   return (
     <section>
 
@@ -23,16 +19,14 @@ function Connection() {
         <h1 className=' text-5xl my-5 text-center font-bold max-sm:text-3xl'>{t("Connection.title")}</h1>
         <p className=' text-base my-5 text-gray-500'>Quisque aliquet, libero consequat elementum convallis.</p>
         <div className='flex py-5 w-full justify-center gap-[85px] max-[1268px]:gap-[55px] max-[912px]: flex-wrap'>
-          <img src={spotify} alt="logo" className='' />
-          <img src={slack} alt="logo" className='' />
-          <img src={netflix} alt="logo" className='' />
-          <img src={heroku} alt="logo" className='' />
-          <img src={vimeo} alt="logo" className='' />
-          <img src={airbnb} alt="logo" className='' />
+          <img src={spotify} alt="logo"  />
+          <img src={slack} alt="logo" />
+          <img src={netflix} alt="logo"  />
+          <img src={heroku} alt="logo"  />
+          <img src={vimeo} alt="logo"  />
+          <img src={airbnb} alt="logo"  />
         </div>
       </div>
-
-
     </section>
 
   )
