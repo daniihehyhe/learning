@@ -2,8 +2,6 @@ import React, { useEffect } from 'react'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './App.css'
-import Connection from './components/connection/Connection'
-import CoursesIn1 from './components/CourcesIn1/CoursesIn1'
 import "tailwindcss/tailwind.css";
 import { CoursesLanding } from './pages/CoursesLanding'
 import {Routes, Route} from 'react-router-dom'
@@ -17,6 +15,7 @@ import { useAppSelector } from './redux/hook';
 import Footer from './components/footer/Footer';
 
 
+
 function App() {
   const theme = useAppSelector((state) => state.reducer.value);
 
@@ -27,7 +26,6 @@ function App() {
         };
       }, [theme]);
   return (
-    <>
     <div className={`${theme ? "dark" : ""}`}>
       <Routes>
         <Route path="/" element={<CoursesLanding />} />
@@ -40,7 +38,6 @@ function App() {
       </Routes>
       <Footer/>
     </div>
-    </>
   );
 }
 

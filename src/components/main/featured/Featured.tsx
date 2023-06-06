@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-ignore
 import  Slider  from "react-slick";
 import "slick-carousel/slick/slick.css"; 
@@ -12,6 +13,8 @@ import prev from './assets/next.svg'
 import { useRef } from "react";
 
 function Featured() {
+
+      const arrowRef = useRef<Slider>(null);
     const settings = {
         dots: false,
         infinite: true,
@@ -53,11 +56,9 @@ function Featured() {
           ],
         slidesToScroll: 1,
       };
-      const arrowRef = useRef(null)
 
 
-  return (
-    
+  return ( 
     <div className="dark:bg-[#161C24]">
         <div >
           <div className='text-black text-[32px] font-bold pt-20 text-center md:text-left' >Featured Courses</div>
@@ -107,7 +108,7 @@ function Featured() {
             </Slider>
         </div>
     </div>
-  )
+  );
 }
 
 export default Featured

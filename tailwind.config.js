@@ -1,20 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [ './src/**/*.{js,ts,jsx,tsx}',
-  ],
- 
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+
   theme: {
     extend: {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
-        raleway: ['Raleway']
+        raleway: ['Raleway'],
+      },
+      backgroundImage: {
+        'aside_img': "url('/src/assets/detail/aside_img.png')",
+      },
+      listStyleImage: {
+        checkmark: "url('/src/assets/detail/li.png')",
       },
       colors: {
         'black': '#212B36',
-        'silver': '#919EAB',
+        'blackc24': '#161C24',
         'orange41c': '#FA541C',
-        'descrColor': '#637381',
-        'blue': '#22B8CF',
       },
       fontSize: {
         '64px': '64px',
@@ -29,23 +32,21 @@ export default {
         'regular': 400,
         'medium': 500,
         'semibold': 600,
-        'bold':700
+        'bold': 700,
       },
-      backgroundColor:{
+      backgroundColor: {
         'blackc24': '#161C24',
-        'orange41c': '#FA541C'
+        'orange41c': '#FA541C',
       },
       boxShadow: {
         'playShadow': '0px 8px 16px rgba(34, 184, 207, 0.24)',
         'sliderShadow': '-16px 16px 56px -8px rgba(145, 158, 171, 0.16)',
         'category': '-24px 24px 72px -8px rgba(145, 158, 171, 0.24)',
-        'list': '-16px 16px 56px -8px rgba(145, 158, 171, 0.16)'
-      }
+      },
     },
   },
   plugins: [],
   darkMode: 'class',
-
   variants: {
     extend: {
       backgroundColor: ['dark'],

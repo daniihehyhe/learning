@@ -1,10 +1,11 @@
-import React, { FC, useEffect, useState } from "react";
+/* eslint-disable no-mixed-spaces-and-tabs */
+import React, { FC, } from "react";
 import { useTranslation } from "react-i18next";
 import logo from "../../assets/logo.png";
 import { Switch} from "antd";
 import { HeaderDropDown } from "./dropDown/HeaderDropDown";
 import { Link } from "react-router-dom";
-import { useAppDispatch, useAppSelector } from "../../redux/hook";
+import { useAppDispatch } from "../../redux/hook";
 import { toggleTheme } from "../../redux/slice/ThemeSlice";
 import BurgerMenu from "./burger/BurgerMenu";
 
@@ -12,12 +13,10 @@ import BurgerMenu from "./burger/BurgerMenu";
 const Header: FC = () => {
   const { t, i18n } = useTranslation();
 const dispatch =useAppDispatch()
-const theme = useAppSelector(state => state.reducer.value)
   const changeLanguage = (checked: boolean) => {
     const lng = checked ? "ru" : "en";
     i18n.changeLanguage(lng);
   };
-
   return (
     <div>
     <div className="flex justify-between py-10 items-center">

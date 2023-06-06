@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Lesson 1",
+    "id": "1",
+    "lock": false
+  },
+  {
+    "name": "Lesson 2",
+    "id": "2",
+    "lock": false
+  },
+  {
+    "name": "Lesson 3",
+    "id": "3",
+    "lock": true
+  },
+  {
+    "name": "Lesson 4",
+    "id": "4",
+    "lock": true
+  },
+  {
+    "name": "Lesson 5",
+    "id": "5",
+    "lock": true
+  },
+  {
+    "name": "Lesson 6",
+    "id": "6",
+    "lock": true
+  },
+  {
+    "name": "Lesson 7",
+    "id": "7",
+    "lock": true
+  },
+  {
+    "name": "Lesson 8",
+    "id": "8",
+    "lock": true
+  },
+  {
+    "name": "Lesson 9",
+    "id": "9",
+    "lock": true
+  }
+]
