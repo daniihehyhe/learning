@@ -16,9 +16,9 @@ const resources = {
 i18n.use(initReactI18next).init({
   resources,
   lng: 'en', // default language
-  fallbackLng: 'ru', // fallback language if translation for the current language is not available
+  fallbackLng: 'ru', // Запасный язык, если перевод на текущий язык недоступен
   interpolation: {
-    escapeValue: false, // react already escapes the content
+    escapeValue: false, // React уже избегает содержания
   },
 });
 
