@@ -59,7 +59,7 @@ function Featured() {
   return (
     
     <div className="dark:bg-[#161C24]">
-        <div className='lg:px-[144px] px-[20px] md:px-[40px]'>
+        <div >
           <div className='text-black text-[32px] font-bold pt-20 text-center md:text-left' >Featured Courses</div>
           <div className="flex items-center justify-between flex-col md:flex-row">
               <div className='text-[#637381] mt-2 font-regular text-center text-[16px]'>Nullam accumsan lorem in dui. Praesent ac massa at ligula laoreet iaculis.</div>

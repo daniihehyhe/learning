@@ -20,7 +20,7 @@ function Main() {
         }
     ]
   return (
-    < div className='container mt-20'>
+    < div className='container mt-20 pb-[136px]'>
       <div className='sm:flex-column flex flex-col md:flex-row md:gap-7'>
         <div className='w-full sm:w-full  md:w-1/2'>
           <div className='text-black w-3/4 mx-auto leading-tight text-40px text-center sm:w-full md:text-left md:w-5/6 md:mx-0 lg:text-64px  font-bold'>
