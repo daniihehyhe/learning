@@ -108,7 +108,6 @@ function CoursesIn1() {
                         </p>
                     </div>
                 </div>
-
                 <div className='px-[100px]'>
                     <div className='flex gap-6 my-[50px] '>
                         <p className='dark:text-white'>{t("courses.tags")}</p>

@@ -20,6 +20,11 @@ import icon1 from '../components/about/assets/about_icon1.svg'
 import icon2 from '../components/about/assets/about_icon2.svg'
 import icon3 from '../components/about/assets/about_icon3.svg'
 import icon4 from '../components/about/assets/about_icon4.svg'
+import slide1 from '../components/main/slider/assets/img.svg' 
+import slide2 from '../components/main/slider/assets/img-1.svg' 
+import slide3 from '../components/main/slider/assets/cooper.svg' 
+import slide4 from '../components/main/slider/assets/img-2.svg' 
+import slide5 from '../components/main/slider/assets/img-3.svg' 
 
 
 
@@ -736,3 +741,51 @@ export const coreData = [
 
 ]
 
+export interface IPhoto{
+    img1: string,
+    img2: string,
+    img3: string,
+    img4: string,
+    img5: string,
+}
+
+export interface IStudent {
+    descr: string,
+    img: IPhoto,
+    name: string,
+    position: string
+}
+
+export const studentData = [
+    {
+        descr:'Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!',
+        img:[slide1,slide2,slide3,slide4,slide5],
+        name: 'Robert Fox',
+        position:'Designer',
+    },
+    {
+        descr:'Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!',
+        img:[slide2,slide3,slide4,slide5,slide1],
+        name: 'Jack Morgan',
+        position:'Front-end Developer',
+    },
+    {
+        descr:'Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!',
+        img:[slide3,slide4,slide5,slide1,slide2],
+        name: 'Rice Decklon',
+        position:'Back-end Developer',
+    },
+    {
+        descr:'Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!',
+        img:[slide4,slide5,slide1,slide2,slide3],
+        name: 'Mason Mount',
+        position:'Fullstack Developer',
+    },
+    {
+        descr:'Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!',
+        img:[slide5,slide1,slide2,slide3,slide4],
+        name: 'Jammy Vardy',
+        position:'IOS Developer',
+    },
+    
+]

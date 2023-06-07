@@ -10,6 +10,7 @@ import { Pagination } from "antd";
 import { PaginationProps } from 'antd';
 import { useState } from 'react';
 import { Rate } from 'antd';
+import { Link } from 'react-router-dom'
 
 
 interface NewsData {
@@ -72,41 +73,43 @@ const ListPage: React.FC<PaginationProps> = () => {
             <div className='w-full flex flex-col items-center gap-[40px] sm:flex-wrap sm:flex-row sm:gap-0 sm:justify-between lg:flex-col lg:w-[70%]'>
                 {
                     displayedNews.map((item,index) => (
-                        <div key={index} className='w-[335px] h-[666px] rounded-[10px] shadow-list sm:mb-[20px] lg:flex lg:w-full lg:h-[320px] relative dark:bg-[#919EAB1F]'> 
-                            <img className='w-full h-[323px] rounded-[10px] rounded-b-none lg:h-full lg:rounded-r-none lg:rounded-bl-[10px] lg:w-[335px]' src={item.img} alt="List" />
-                            {item.status && (
-                                <div className='absolute px-[8px] text-[#212B36] font-semibold uppercase bg-[#FFC81A] text-[12px] left-[12px] top-[12px] rounded-[6px]'>BEST SELLER</div>
-                            )}
-                            <div className='lg:w-full'>
-                                <div className='flex justify-between mt-[24px] px-[24px] items-center'>
-                                    <div className='text-[#FA541C] uppercase text-[12px] font-semibold '>{item.title}</div>
-                                    <div className='flex gap-2'>
-                                        <div className='text-[#919EAB] text-[18px] font-bold'>{item.oldPrice}</div>
-                                        <div className='text-[18px] font-bold text-[#212B36] dark:text-[#fff]'>$59</div>
+                       <Link to='/Detail'>
+                            <div key={index} className='w-[335px] h-[666px] rounded-[10px] shadow-list sm:mb-[20px] lg:flex lg:w-full lg:h-[320px] relative dark:bg-[#919EAB1F]'> 
+                                <img className='w-full h-[323px] rounded-[10px] rounded-b-none lg:h-full lg:rounded-r-none lg:rounded-bl-[10px] lg:w-[335px]' src={item.img} alt="List" />
+                                {item.status && (
+                                    <div className='absolute px-[8px] text-[#212B36] font-semibold uppercase bg-[#FFC81A] text-[12px] left-[12px] top-[12px] rounded-[6px]'>BEST SELLER</div>
+                                )}
+                                <div className='lg:w-full'>
+                                    <div className='flex justify-between mt-[24px] px-[24px] items-center'>
+                                        <div className='text-[#FA541C] uppercase text-[12px] font-semibold '>{item.title}</div>
+                                        <div className='flex gap-2'>
+                                            <div className='text-[#919EAB] text-[18px] font-bold'>{item.oldPrice}</div>
+                                            <div className='text-[18px] font-bold text-[#212B36] dark:text-[#fff]'>$59</div>
+                                        </div>
+                                    </div>
+                                    <div className='px-[24px] text-[15px] font-semibold text-black mt-[24px] dark:text-[#fff]'>The Complete Product Management Cours</div>
+                                    <div className='hidden lg:block text-[#637381] text-[14px] font-regular px-[24px] mt-[8px] dark:text-[#919EAB]'>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</div>
+                                    <div className='flex px-8 mt-4 items-center'>
+                                        <img src={star} alt="Star" />
+                                        <div className='text-black font-semibold text-[18px] ml-2 dark:text-[#fff]'>4.8 <span className='text-[#637381] text-[14px] font-regular dark:text-[#919EAB]'> (10,35k reviews)</span></div>
+                                        <div className='w-[1px] h-[20px] bg-[#919EAB3D] mx-5'></div>
+                                        <div className='font-semibold text-black text-[14px] dark:text-[#fff] '>180k <span className='font-regular'>students</span></div>
+                                    </div>
+                                    <div className='flex gap-3 items-center mt-5 px-8'>
+                                        <img src={cooper} alt="Cooper" />
+                                        <div className='text-[14px] font-regular text-black dark:text-[#fff]'>Maddox Fletcher</div>
+                                        <div className='text-[#637381] text-[14px] font-regular underline dark:text-[#919EAB]'>+10 teachers</div>
+                                    </div>
+                                    <hr className='my-6 w-[322px] border-dashed mx-auto lg:hidden'/>
+                                    <div className='flex pl-6 gap-4 items-end lg:mt-[24px]'>
+                                        <img src={clock} alt="Clock" />
+                                        <div className='text-[#919EAB] text-[14px] font-regular dark:text-[#919EAB]'>100 hours</div>
+                                        <img src={level} alt="Clock" />
+                                        <div className='text-[#919EAB] text-[14px] font-regular dark:text-[#919EAB]'>Beginner</div>
                                     </div>
                                 </div>
-                                <div className='px-[24px] text-[15px] font-semibold text-black mt-[24px] dark:text-[#fff]'>The Complete Product Management Cours</div>
-                                <div className='hidden lg:block text-[#637381] text-[14px] font-regular px-[24px] mt-[8px] dark:text-[#919EAB]'>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</div>
-                                <div className='flex px-8 mt-4 items-center'>
-                                    <img src={star} alt="Star" />
-                                    <div className='text-black font-semibold text-[18px] ml-2 dark:text-[#fff]'>4.8 <span className='text-[#637381] text-[14px] font-regular dark:text-[#919EAB]'> (10,35k reviews)</span></div>
-                                    <div className='w-[1px] h-[20px] bg-[#919EAB3D] mx-5'></div>
-                                    <div className='font-semibold text-black text-[14px] dark:text-[#fff] '>180k <span className='font-regular'>students</span></div>
-                                </div>
-                                <div className='flex gap-3 items-center mt-5 px-8'>
-                                    <img src={cooper} alt="Cooper" />
-                                    <div className='text-[14px] font-regular text-black dark:text-[#fff]'>Maddox Fletcher</div>
-                                    <div className='text-[#637381] text-[14px] font-regular underline dark:text-[#919EAB]'>+10 teachers</div>
-                                </div>
-                                <hr className='my-6 w-[322px] border-dashed mx-auto lg:hidden'/>
-                                <div className='flex pl-6 gap-4 items-end lg:mt-[24px]'>
-                                    <img src={clock} alt="Clock" />
-                                    <div className='text-[#919EAB] text-[14px] font-regular dark:text-[#919EAB]'>100 hours</div>
-                                    <img src={level} alt="Clock" />
-                                    <div className='text-[#919EAB] text-[14px] font-regular dark:text-[#919EAB]'>Beginner</div>
-                                </div>
                             </div>
-                        </div>
+                       </Link>
                     ))
                 }
                 <div className='mt-[80px]'>
