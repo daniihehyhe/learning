@@ -111,11 +111,11 @@ function CoursesIn1() {
             <div className='px-[340px]'>
                 <div className='flex gap-6 my-[50px] '>
                     <p>{t("courses.tags")}</p>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.marketing")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.development")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.hr")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.design")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.management")}</div>
+                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.marketing")}</div>
+                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.development")}</div>
+                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.hr")}</div>
+                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.design")}</div>
+                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.management")}</div>
                 </div>
                 <div className='flex gap-6'>
                     <p>{t("courses.share")}</p>
