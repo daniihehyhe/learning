@@ -9,6 +9,7 @@ import slide2 from './assets/img-1.svg'
 import slide3 from './assets/cooper.svg' 
 import slide4 from './assets/img-2.svg' 
 import slide5 from './assets/img-3.svg' 
+import { studentData } from "../../../constants/sliderData";
 
 
 function Slider() {
@@ -33,21 +34,21 @@ function Slider() {
          <div>
             <Slider2 {...settings} ref={arrowRef}>
             {
-                [1,1,1,1].map((item, index) => (
+                studentData.map((item, index) => (
                    <div key={index}>
                          <div>
                             <div className="flex items-center flex-col ">
                                 <img src={vector} alt="" />
-                                <div className="text-[#212B36] md:text-[24px] text-[20px] font-medium md:w-[564px] text-center mt-[34px] dark:text-white">Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!</div>
-                                <div className="flex md:gap-[40px] gap-[24px] mt-[64px] ">
+                                <div className="text-[#212B36] md:text-[24px] text-[20px] font-medium md:w-[564px] text-center mt-[34px] dark:text-white">{item.descr}</div>
+                                <div className="flex md:gap-[40px] gap-[24px] mt-[64px] items-center">
                                     {
-                                        slideData.map((item) => (
-                                            <img key={item} className="w-[48px] h-[48px] opacity-[0.5] hover:opacity-[1] hover:scale-150 ease-in duration-300 first:hidden md:first:block last:hidden md:last:block" src={item} alt="Slide" />
+                                        item.img.map((item, index) => (
+                                            <img key={item} className={index === 2 ? 'opacity-[1] w-[96px] h-[96px]' : 'w-[48px] h-[48px] opacity-[0.5] hover:opacity-[1] hover:scale-150 ease-in duration-300 first:hidden md:first:block last:hidden md:last:block'} src={item} alt="Slide" />
                                         ))
                                     }
                                 </div>
-                                <div className="mt-[24px] text-[18px] text-[#212B36] font-semibold mx-auto dark:text-white">Robert Fox</div>
-                                <div className="mt-[4px] text-[#637381] text-[13px] font-regular dark:text-[#919EAB]">Designer</div>
+                                <div className="mt-[24px] text-[18px] text-[#212B36] font-semibold mx-auto dark:text-white">{item.name}</div>
+                                <div className="mt-[4px] text-[#637381] text-[13px] font-regular dark:text-[#919EAB]">{item.position}</div>
                             </div>
                         </div>
                    </div>
