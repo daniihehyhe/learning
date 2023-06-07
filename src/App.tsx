@@ -20,13 +20,13 @@ function App() {
   const theme = useAppSelector((state) => state.reducer.value);
 
     useEffect(() => {
-        document.body.style.backgroundColor = `${!theme ? 'white' : '#161C24'}`;
+        document.body.style.backgroundColor = `${theme ? '#161C24' : ''}`;
         return () => {
           document.body.style.backgroundColor = '';
         };
       }, [theme]);
   return (
-    <div className={`${theme ? "dark" : ""} `}>
+    <div className={`${theme ? 'dark' : ''}`}>
       <Routes>
         <Route path="/" element={<CoursesLanding />} />
         <Route path="/Blog" element={<Blog />} />

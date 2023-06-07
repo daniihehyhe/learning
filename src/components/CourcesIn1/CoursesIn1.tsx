@@ -35,8 +35,8 @@ function CoursesIn1() {
             <div className='pt-[230px] px-[340px] ' >
                 <div className=' flex flex-col items-center'>
                     <p className='text-gray-500 text-center'>{t("courses.p")}</p>
-                    <h1 className='mt-[24px] text-center text-[48px] font-bold w-[760px]'>{t("courses.title")}</h1>
-                    <p className='text-center leading-8 text-[20px] w-[760px] mt-[24px]'>
+                    <h1 className='mt-[24px] text-center text-[48px] font-bold w-[760px] dark:text-white'>{t("courses.title")}</h1>
+                    <p className='text-center leading-8 text-[20px] w-[760px] mt-[24px] dark:text-white'>
                         Pellentesque posuere. Phasellus a est. Suspendisse pulvinar, augue ac venenatis condimentum,
                         sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Phasellus viverra nulla ut
                         metus varius laoreet. Praesent egestas tristique nibh.
@@ -111,11 +111,11 @@ function CoursesIn1() {
             <div className='px-[340px]'>
                 <div className='flex gap-6 my-[50px] '>
                     <p>{t("courses.tags")}</p>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.marketing")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.development")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.hr")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.design")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.management")}</div>
+                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.marketing")}</div>
+                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.development")}</div>
+                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.hr")}</div>
+                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.design")}</div>
+                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.management")}</div>
                 </div>
                 <div className='flex gap-6'>
                     <p>{t("courses.share")}</p>

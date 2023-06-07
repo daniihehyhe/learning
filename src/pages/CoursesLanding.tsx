@@ -7,22 +7,23 @@ import MobileBlock from '../components/main/mobile_block/MobileBlock'
 import Connection from "../components/connection/Connection";
 import Teachers from '../components/main/teachers/Teachers'
 import LatestPost from '../components/main/latest/LatestPost'
-import Sliderr from '../components/main/slider/Slider'
+import Work from '../components/main/work/Work'
 
 
 
 export const CoursesLanding = () => {
   return (
     <div>
-      <div className="container_global dark:bg-slate-500">
+      <div className="container_global">
         <Header />
         <Main />
+        <Work/>
         <Connection />
         <Featured />
       </div>
       <FeaturedCategory />
       <Teachers />
-      <Sliderr />
+      <Slider />
       <LatestPost />
       <div className="container_global">
         <MobileBlock />
@@ -31,4 +32,3 @@ export const CoursesLanding = () => {
   );
 }
 
-//dark:bg-blackc24
