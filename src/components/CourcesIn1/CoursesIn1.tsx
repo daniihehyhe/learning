@@ -35,8 +35,8 @@ function CoursesIn1() {
             <div className='pt-[230px] px-[340px] ' >
                 <div className=' flex flex-col items-center'>
                     <p className='text-gray-500 text-center'>{t("courses.p")}</p>
-                    <h1 className='mt-[24px] text-center text-[48px] font-bold w-[760px]'>{t("courses.title")}</h1>
-                    <p className='text-center leading-8 text-[20px] w-[760px] mt-[24px]'>
+                    <h1 className='mt-[24px] text-center text-[48px] font-bold w-[760px] dark:text-white'>{t("courses.title")}</h1>
+                    <p className='text-center leading-8 text-[20px] w-[760px] mt-[24px] dark:text-white'>
                         Pellentesque posuere. Phasellus a est. Suspendisse pulvinar, augue ac venenatis condimentum,
                         sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Phasellus viverra nulla ut
                         metus varius laoreet. Praesent egestas tristique nibh.

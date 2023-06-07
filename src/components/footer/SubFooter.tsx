@@ -10,12 +10,12 @@ const SubFooter:FC = () => {
 const {t}= useTranslation()
   return (
     <div className="flex pb-3 md:pb-40 pt-10 md:px-[100px] lg:px-[144px] dark:bg-[#161C24]">
-      <main className="w-full flex flex-col-reverse md:flex-row bg-orange-100 p-28 justify-between gap-10 items-center rounded-lg">
+      <main className="w-full flex flex-col-reverse md:flex-row bg-orange-100 p-28 justify-between gap-10 items-center rounded-lg dark:bg-[#FA541C14]">
         <section className="flex justify-center flex-col items-center text-center md:items-start md:w-1/2 md:text-left">
-          <h1 className="font-roboto text-3xl font-medium">
+          <h1 className="font-roboto text-3xl font-medium dark:text-white">
            {t("footer.title")}
           </h1>
-          <p className="mt-4 mb-11 font-raleway ">
+          <p className="mt-4 mb-11 font-raleway dark:text-white">
            {t("footer.text")}
           </p>
           <div className='bg-white flex w-fit rounded-lg p-1'>
