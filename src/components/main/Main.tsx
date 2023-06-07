@@ -32,6 +32,7 @@ function Main() {
           <div className='flex flex-col gap-7 items-center mt-14 sm:flex-row justify-center md:w-full lg:justify-start'>
             <button className='bg-[#FA541C] text-white flex gap-2 px-6 py-3 rounded-lg md:px-3 font-bold md:text-[16px]'>Ready Start <img src={main} alt="mainRight" /></button>
             <div className='flex gap-5 items-center'>
+
                 <div className='w-12 h-12 flex justify-center items-center rounded-full bg-[#22B8CF] shadow-playShadow '><img src={play} alt="mainPlay" /></div>
                 <div className='text-black text-18px font-semibold md:text-[16px] dark:text-white'>Watch Video</div>
             </div>

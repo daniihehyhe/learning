@@ -5,16 +5,13 @@ import Featured from '../components/main/featured/Featured'
 import FeaturedCategory from '../components/main/featuredCategory/FeaturedCategory'
 import MobileBlock from '../components/main/mobile_block/MobileBlock'
 import Connection from "../components/connection/Connection";
-import { useAppSelector } from '../redux/hook'
 import Teachers from '../components/main/teachers/Teachers'
-import Slider from '../components/main/slider/Slider'
 import LatestPost from '../components/main/latest/LatestPost'
 import Work from '../components/main/work/Work'
 
 
 
 export const CoursesLanding = () => {
-  const theme = useAppSelector((state) => state.reducer.value);
   return (
     <div>
       <div className="container_global">
@@ -35,4 +32,3 @@ export const CoursesLanding = () => {
   );
 }
 
-//dark:bg-blackc24

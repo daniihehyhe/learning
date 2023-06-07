@@ -1,3 +1,4 @@
+
 // @ts-ignore
 import  Slider2  from "react-slick";
 import { useRef } from "react"
@@ -11,18 +12,12 @@ import slide4 from './assets/img-2.svg'
 import slide5 from './assets/img-3.svg' 
 import { studentData } from "../../../constants/sliderData";
 
+function ImageSlider() {
+  const arrowRef = useRef(null);
+  const slideData = [slide1Img, slide2Img, slide3Img, slide4Img, slide5Img];
 
-function Slider() {
-    const arrowRef = useRef(null)
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        arrows: false,
-    }
-    const slideData = [slide1,slide2,slide3, slide4, slide5]
   return (
+
     <div className='lg:px-[144px] lg:py-[120px] px-[20px] py-[64px] md:px-[40px] md:py-[84px] bg-[#F9FAFB] dark:bg-[#919EAB1F]' >
         <div className='text-[What Our Students Say] text-[38px] font-bold text-center dark:text-[#fff]'>What Our Students Say</div>
         <div className="flex gap-10 items-center justify-center my-[20px] md:relative ">
@@ -57,7 +52,7 @@ function Slider() {
             </Slider2>
          </div>
     </div>
-  )
+  );
 }
 
-export default Slider
+export default ImageSlider;
