@@ -9,6 +9,7 @@ import { useAppSelector } from '../redux/hook'
 import Teachers from '../components/main/teachers/Teachers'
 import Slider from '../components/main/slider/Slider'
 import LatestPost from '../components/main/latest/LatestPost'
+import Work from '../components/main/work/Work'
 
 
 
@@ -16,9 +17,10 @@ export const CoursesLanding = () => {
   const theme = useAppSelector((state) => state.reducer.value);
   return (
     <div>
-      <div className="container_global dark:bg-slate-500">
+      <div className="container_global">
         <Header />
         <Main />
+        <Work/>
         <Connection />
         <Featured />
       </div>

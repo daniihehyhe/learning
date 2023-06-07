@@ -47,37 +47,37 @@ function ContactPage() {
     ]
   return (
     <div>
-        <div className='bg-[#F9FAFB] md:py-[80px] md:px-[100px] lg:px-[144px] px-[20px] py-[64px] flex flex-col items-center md:flex-row md:justify-between'>
+        <div className='bg-[#F9FAFB] md:py-[80px] md:px-[100px] lg:px-[144px] px-[20px] py-[64px] flex flex-col items-center md:flex-row md:justify-between dark:bg-[#161C24]'>
             <div className='md:w-[50%] w-full'>
-                <div className='text-center text-[#212B36] font-bold text-[28px] md:text-left'>Get In Touch</div>
+                <div className='text-center text-[#212B36] font-bold text-[28px] md:text-left dark:text-white'>Get In Touch</div>
                 <div className='mt-[45px]'>
                     {
                         contactData.map((item) => (
-                            <div className='flex flex-col items-center mb-[24px] md:items-start'>
+                            <div key={item.img} className='flex flex-col items-center mb-[24px] md:items-start'>
                                 <div className='flex gap-[10px]'>
-                                    <img src={item.img} alt="Link" />
-                                    <div className='text-[#212B36] font-semibold text-[14px]'>{item.title}</div>
+                                    <img className='dark:invert' src={item.img} alt="Link" />
+                                    <div className='text-[#212B36] font-semibold text-[14px] dark:text-white'>{item.title}</div>
                                 </div>
                                 <div className='mt-[8px]'>
-                                    <a className='font-regualar text-[14px] text-[#212B36]' href="/">{item.link}</a>
+                                    <a className='font-regualar text-[14px] text-[#212B36] dark:text-white' href="/">{item.link}</a>
                                 </div>
                             </div>
                         ))
                     }
                 </div>
-                <hr className='border-dashed md:w-[90%]'/>
-                <div className='mt-[24px] text-[#212B36] text-[12px] font-semibold text-center md:text-left'>FOLLOW US</div>
+                <hr className='border-dashed md:w-[90%] dark:border-[#919EAB3D]'/>
+                <div className='mt-[24px] text-[#212B36] text-[12px] font-semibold text-center md:text-left dark:text-white'>FOLLOW US</div>
                 <div className='flex mt-[26px] items-center justify-center gap-[32px] mb-[74px] md:justify-start'>
                     {
                         socialData.map((item) => (
-                           <a  key={item.href} href={item.href} target="blunk"> <img src={item.img} alt="" /></a>
+                           <a  key={item.href} href={item.href} target="blunk"> <img className='dark:invert' src={item.img} alt="" /></a>
                         ))
                     }
                 </div>
             </div>
             <div>
                 {/* @ts-ignore */}
-            <iframe className='lg:w-[662px] lg:h-[498px] lg:rounded-[16px]' width="335" height="335" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=662&amp;height=498&amp;hl=en&amp;q=ahunbaeva%20133%20bishkek+(bishkek)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            <iframe className='lg:w-[662px] lg:h-[498px] lg:rounded-[16px]' width="335" height="335" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=662&amp;height=498&amp;hl=en&amp;q=ahunbaeva%20133%20bishkek+(bishkek)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
             </div>
         </div>
         <div className='pt-[64px] px-[20px] flex items-center justify-center md:justify-between md:gap-[50px] md:px-[100px] md:py-[80px] lg:px-[144px]'>
@@ -85,8 +85,8 @@ function ContactPage() {
                 <img src={conact} alt="Contact" />
             </div>
             <div className='flex flex-col items-center justify-center md:items-start'>
-                <div className='text-[#212B36] text-[22px] font-bold text-center md:text-left'>Drop us a line</div>
-                <div className='text-[#637381] tetx-[14px] font-regular mt-[8px] text-center mb-[40px]'>We normally respond within 2 business days</div>
+                <div className='text-[#212B36] text-[22px] font-bold text-center md:text-left dark:text-white'>Drop us a line</div>
+                <div className='text-[#637381] tetx-[14px] font-regular mt-[8px] text-center mb-[40px] dark:text-[#919EAB]'>We normally respond within 2 business days</div>
                 <input className='w-[335px] md:w-[400px] lg:w-[662px] h-[56px] rounded-[8px] px-[12px] py-[14px] bg-[#919EAB14] mb-[24px]' type="text" placeholder='Name'/>
                 <input className='w-[335px] md:w-[400px] lg:w-[662px] h-[56px] rounded-[8px] px-[12px] py-[14px] bg-[#919EAB14] mb-[24px]'  type="email" placeholder='email' />
                 <input className='w-[335px] md:w-[400px] lg:w-[662px] h-[56px] rounded-[8px] px-[12px] py-[14px] bg-[#919EAB14] mb-[24px]'  type="text" placeholder='Subject' />

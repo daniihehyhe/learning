@@ -22,8 +22,8 @@ function Slider() {
     }
     const slideData = [slide1,slide2,slide3, slide4, slide5]
   return (
-    <div className='lg:px-[144px] lg:py-[120px] px-[20px] py-[64px] md:px-[40px] md:py-[84px] bg-[#F9FAFB] dark:bg-[#161C24] dark:opacity-[0.95]' >
-        <div className='text-[What Our Students Say] text-[38px] font-bold text-center'>What Our Students Say</div>
+    <div className='lg:px-[144px] lg:py-[120px] px-[20px] py-[64px] md:px-[40px] md:py-[84px] bg-[#F9FAFB] dark:bg-[#919EAB1F]' >
+        <div className='text-[What Our Students Say] text-[38px] font-bold text-center dark:text-[#fff]'>What Our Students Say</div>
         <div className="flex gap-10 items-center justify-center my-[20px] md:relative ">
             {/* @ts-ignore */}
             <button className="md:absolute top-[200px] -left-[20px]" onClick={() => arrowRef.current.slickPrev()}><img src={prev} alt='Prev'/></button>
@@ -36,9 +36,9 @@ function Slider() {
                 [1,1,1,1].map((item, index) => (
                    <div key={index}>
                          <div>
-                            <div className="flex items-center flex-col">
+                            <div className="flex items-center flex-col ">
                                 <img src={vector} alt="" />
-                                <div className="text-[#212B36] md:text-[24px] text-[20px] font-medium md:w-[564px] text-center mt-[34px]">Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!</div>
+                                <div className="text-[#212B36] md:text-[24px] text-[20px] font-medium md:w-[564px] text-center mt-[34px] dark:text-white">Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!</div>
                                 <div className="flex md:gap-[40px] gap-[24px] mt-[64px] ">
                                     {
                                         slideData.map((item) => (
@@ -46,8 +46,8 @@ function Slider() {
                                         ))
                                     }
                                 </div>
-                                <div className="mt-[24px] text-[18px] text-[#212B36] font-semibold mx-auto">Robert Fox</div>
-                                <div className="mt-[4px] text-[#637381] text-[13px] font-regular">Designer</div>
+                                <div className="mt-[24px] text-[18px] text-[#212B36] font-semibold mx-auto dark:text-white">Robert Fox</div>
+                                <div className="mt-[4px] text-[#637381] text-[13px] font-regular dark:text-[#919EAB]">Designer</div>
                             </div>
                         </div>
                    </div>

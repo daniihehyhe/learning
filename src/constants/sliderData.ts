@@ -232,6 +232,134 @@ export const listData = [
         title: 'Management',
         status: false
     },
+
+    {
+        img: list6,
+        title: 'Development',
+        status: true
+    },
+    {
+        img: list7,
+        title: 'Management',
+        status: true
+    },
+    {
+        img: list8,
+        title: 'Management',
+        status: false
+    },
+
+    {
+        img: list6,
+        title: 'Development',
+        status: true
+    },
+    {
+        img: list7,
+        title: 'Management',
+        status: true
+    },
+    {
+        img: list8,
+        title: 'Management',
+        status: false
+    },
+
+    {
+        img: list6,
+        title: 'Development',
+        status: true
+    },
+    {
+        img: list7,
+        title: 'Management',
+        status: true
+    },
+    {
+        img: list8,
+        title: 'Management',
+        status: false
+    },
+
+    {
+        img: list6,
+        title: 'Development',
+        status: true
+    },
+    {
+        img: list7,
+        title: 'Management',
+        status: true
+    },
+    {
+        img: list8,
+        title: 'Management',
+        status: false
+    },
+
+    {
+        img: list6,
+        title: 'Development',
+        status: true
+    },
+    {
+        img: list7,
+        title: 'Management',
+        status: true
+    },
+    {
+        img: list8,
+        title: 'Management',
+        status: false
+    },
+
+    {
+        img: list6,
+        title: 'Development',
+        status: true
+    },
+    {
+        img: list7,
+        title: 'Management',
+        status: true
+    },
+    {
+        img: list8,
+        title: 'Management',
+        status: false
+    },
+    {
+        img: list8,
+        title: 'Management',
+        status: false
+    },
+
+    {
+        img: list6,
+        title: 'Development',
+        status: true
+    },
+    {
+        img: list7,
+        title: 'Management',
+        status: true
+    },
+    {
+        img: list8,
+        title: 'Management',
+        status: false
+    },
+
+    {
+        img: list6,
+        title: 'Development',
+        status: true
+    },
+    {
+        img: list7,
+        title: 'Management',
+        status: true
+    },
 ]
 
 export interface IStar {
