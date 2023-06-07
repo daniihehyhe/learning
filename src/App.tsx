@@ -26,7 +26,7 @@ function App() {
         };
       }, [theme]);
   return (
-    <div className={`${theme ? "dark" : ""}`}>
+    <div className={`${theme ? "dark" : ""} `}>
       <Routes>
         <Route path="/" element={<CoursesLanding />} />
         <Route path="/Blog" element={<Blog />} />

@@ -21,9 +21,6 @@ import icon3 from '../components/about/assets/about_icon3.svg'
 import icon4 from '../components/about/assets/about_icon4.svg'
 
 
-
-
-
 export interface ISlider {
     img: string,
     price: number,
@@ -35,10 +32,10 @@ export const sliderData =  [
     {
         img: slider1,
         price: 39,
-        title: "Don't Waste Time! 7 Facts Until You Reach Your Event" ,
+        title: "footr.title" ,
         name: 'Bessie Cooper',
     },
-    {
+        {
         img: slider2,
         price: 99,
         title: "The 7 Most Successful Event Companies In Region" ,

@@ -33,7 +33,7 @@ function Main() {
             <button className='bg-[#FA541C] text-white flex gap-2 px-6 py-3 rounded-lg md:px-3 font-bold md:text-[16px]'>Ready Start <img src={main} alt="mainRight" /></button>
             <div className='flex gap-5 items-center'>
                 <div className='w-12 h-12 flex justify-center items-center rounded-full bg-blue shadow-playShadow '><img src={play} alt="mainPlay" /></div>
-                <div className='text-black text-18px font-semibold md:text-[16px]'>Watch Video</div>
+                <div className='text-black text-18px font-semibold md:text-[16px] dark:text-white'>Watch Video</div>
             </div>
           </div>
           <hr className='mt-12 w-full border-dashed'/>

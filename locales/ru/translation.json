@@ -5,12 +5,15 @@
     "pages": "Страницы",
     "cours": "Курсы",
     "login": "Логин",
-    "join": "Вступить"
+    "join": "Вступить",
+    "bdetail": "Blog Detail",
+    "about": "About",
+    "contact": "Контакт"
   },
 	"Connection":{
 		"title": "Мы работаем с",
     "join": "Вступить",
-    "bdetail": "Деталь блога",
+    "bdetail": "Детали блога",
     "contact": "Контакт",
     "about": "О Нас"
   },
