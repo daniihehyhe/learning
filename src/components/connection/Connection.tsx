@@ -26,7 +26,7 @@ function Connection() {
           />
           <div>
             <h1 className='text-[36px] font-bold mt-[110px] leading-[44px] w-[564px] max-[1300px]:mt-[50px] max-[1300px]:text-[30px] 
-            max-[1120px]:mt-0 max-[950px]:text-[36px] max-[700px]:text-[30px] max-[600px]:text-[24px] max-[600px]:w-[335px] dark:text-white'>
+            max-[1120px]:mt-0 max-[950px]:text-[36px] max-[700px]:text-[30px] max-[600px]:text-[24px] max-[600px]:w-[335px] dark:text-white '>
               Phasellus gravida semper nisi. Vestibulum rutrum, mi
             </h1>
             <p className=' mt-[24px] text-[16px] font-normal text-gray-500 leading-[28px] w-[564px] max-[1200px]:w-[400px] max-[950px]:w-[564px] max-[700px]:w-[400px] max-[600px]:w-[335px] dark:text-[#919EAB]'>

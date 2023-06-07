@@ -9,7 +9,7 @@ function LatestPost() {
         <div className="flex justify-between">
             <div className='text-[32px] font-bold text-[#212B36] text-center lg:text-left dark:text-white'>Latest Posts</div>
             <div className="items-center gap-5 justify-center hidden lg:flex">
-                <div className='text-[15px] font-semibold text-[#FA541C] text-center'>View All </div>
+                <div className='text-[15px] font-semibold text-[#FA541C] text-center'>View All</div>
                 <img src={orangeRight} alt="Right" />
             </div>
         </div>

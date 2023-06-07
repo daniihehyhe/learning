@@ -2,6 +2,7 @@ import { aboutData, coreData } from '../../constants/sliderData'
 import LatestPost from '../main/latest/LatestPost'
 import Slider from '../main/slider/Slider'
 import Teachers from '../main/teachers/Teachers'
+import TEachers2 from '../main/teachers/TEachers2'
 import Work from '../main/work/Work'
 import about from './assets/about_bg.svg'
 import about_img from './assets/about_img.svg'
@@ -62,7 +63,7 @@ function AboutPage() {
             </div>
         </div>
         <div className='container_global'>
-            <Teachers/>
+            <TEachers2/>
             <Work/>
         </div>
         <Slider/>
