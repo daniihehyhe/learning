@@ -31,11 +31,11 @@ const Footer:FC = () => {
             </div>
           </main>
           <main className="flex items-center pb-5 flex-col w-full md:w-1/3 ">
-            <div className="flex gap-3 mb-3 dark:text-white">
+            <div className="flex gap-3 mb-3 dark:text-white font-regular">
               <img className='dark:invert' src={mail} alt="mail" /> info@example.com
             </div>
-            <div className="flex gap-3 dark:text-white">
-              <img className='dark:invert' src={local} alt="local" /> 655 Schaefer Dale
+            <div className="flex gap-3 dark:text-white font-regular">
+              <img className='dark:invert ' src={local} alt="local" /> 655 Schaefer Dale
             </div>
           </main>
           <main className="min-w-fit flex lg:w-1/3 pb-10 justify-center">
