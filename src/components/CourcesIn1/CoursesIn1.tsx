@@ -42,114 +42,114 @@ function CoursesIn1() {
                         metus varius laoreet. Praesent egestas tristique nibh.
                     </p>
                 </div>
-                <div className=' py-[48px]'>
-                    <hr className='h-[1px] border text-gray-500' />
-                    <div className='py-[24px] flex'>
-                        <img src={person} alt="" />
-                        <div className='ml-[18px]'>
-                            <p className='font-semibold'>{t("courses.name")}</p>
-                            <p className='text-gray-500'>16 Mar 2020 12:35 PM</p>
+                <div className='px-[100px]'>
+                    <div className=' py-[48px]'>
+                        <hr className='h-[1px] border text-gray-500' />
+                        <div className='py-[24px] flex'>
+                            <img src={person} alt="" />
+                            <div className='ml-[18px]'>
+                                <p className='font-semibold dark:text-white'>{t("courses.name")}</p>
+                                <p className='text-gray-500 dark:text-white'>16 Mar 2020 12:35 PM</p>
+                            </div>
+                            <div className='flex ml-[410px]'>
+                                <img className='' src={like} alt="" />
+                                <img className='' src={like} alt="" />
+                            </div>
                         </div>
-                        <div className='flex ml-[410px]'>
-                            <img className='' src={like} alt="" />
-                            <img className='' src={like} alt="" />
-                        </div>
+                        <hr className='h-[1px] border text-gray-500' />
                     </div>
-                    <hr className='h-[1px] border text-gray-500' />
-                </div>
 
-                <div className=''>
-                    <div className='flex gap-[15px]'>
-                        <p className='text-[80px] font-bold'>P</p>
-                        <p className='mt-[27px] w-[682px] text-4 font-normal leading-7'>
-                            ellentesque posuere. Phasellus a est. Suspendisse pulvinar, augue ac venenatis
+                    <div className=''>
+                        <div className='flex gap-[15px]'>
+                            <p className='text-[80px] font-bold dark:text-white'>P</p>
+                            <p className='mt-[27px] w-[682px] text-4 font-normal leading-7 dark:text-white'>
+                                ellentesque posuere. Phasellus a est. Suspendisse pulvinar, augue ac venenatis
+                                condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
+                                Phasellus viverra nulla ut metus varius laoreet. Praesent egestas tristique nibh.
+                            </p>
+                        </div>
+                        <p className='text-4 font-normal leading-7 dark:text-white'>Donec posuere vulputate arcu. Quisque rutrum.</p>
+                        <p className='text-4 font-normal leading-7 my-[40px] w-[760px] dark:text-white'>
+                            Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum aliquam leo.
+                            Nam commodo suscipit quam. Vestibulum ullamcorper mauris at ligula.
+                        </p>
+                        <p className='text-4 font-normal leading-7  w-[760px] dark:text-white'>
+                            Pellentesque posuere. Phasellus a est. Suspendisse pulvinar, augue ac venenatis
                             condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
                             Phasellus viverra nulla ut metus varius laoreet. Praesent egestas tristique nibh.
                         </p>
-                    </div>
-                    <p className='text-4 font-normal leading-7'>Donec posuere vulputate arcu. Quisque rutrum.</p>
-                    <p className='text-4 font-normal leading-7 my-[40px] w-[760px]'>
-                        Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum aliquam leo.
-                        Nam commodo suscipit quam. Vestibulum ullamcorper mauris at ligula.
-                    </p>
-                    <p className='text-4 font-normal leading-7  w-[760px]'>
-                        Pellentesque posuere. Phasellus a est. Suspendisse pulvinar, augue ac venenatis
-                        condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
-                        Phasellus viverra nulla ut metus varius laoreet. Praesent egestas tristique nibh.
-                    </p>
-                    <img className='rounded-2xl my-10' src={hands} alt="" />
-                    <h1 className='text-[24px] font-bold leading-9 '>Curabitur suscipit suscipit tellus</h1>
-                    <p className='mt-4 text-4 font-normal leading-7 w-[760px]'>
-                        Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum aliquam leo.
-                        Nam commodo suscipit quam. Vestibulum ullamcorper mauris at ligula.</p>
-                    <h1 className='text-[24px] font-bold leading-9 mt-10'>Nullam accumsan lorem in</h1>
-                    <p className='mt-4 text-4 font-normal leading-7  w-[760px]'>
-                        Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum aliquam leo.
-                        Nam commodo suscipit quam. Vestibulum ullamcorper mauris at ligula.</p>
-                    <div className='flex my-20'>
-                        <img className='mx-[46px]' src={quotes} alt="" />
-                        <p className='text-[20px] font-medium leading-8 w-[554px]'>
+                        <img className='rounded-2xl my-10' src={hands} alt="" />
+                        <h1 className='text-[24px] font-bold leading-9 dark:text-white'>Curabitur suscipit suscipit tellus</h1>
+                        <p className='mt-4 text-4 font-normal leading-7 w-[760px] dark:text-white'>
                             Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum aliquam leo.
-                        </p>
-                    </div>
-                    <img className='rounded-2xl' src={laptop} alt="" />
-                    <p className='text-4 font-normal leading-7 my-[40px] w-[700px]'>
-                        Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum aliquam leo.
-                        Nam commodo suscipit quam. Vestibulum ullamcorper mauris at ligula.</p>
-                    <p className='text-4 font-normal leading-7 my-[40px] w-[680px]'>
-                        Pellentesque posuere. Phasellus a est. Suspendisse pulvinar, augue ac venenatis
-                        condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
-                        Phasellus viverra nulla ut metus varius laoreet. Praesent egestas tristique nibh.
-                    </p>
-                    <p className='text-4 font-normal leading-7 my-[40px] w-[700px]'>
-                        Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum aliquam leo.
-                        Nam commodo suscipit quam. Vestibulum ullamcorper mauris at ligula.
-                    </p>
-                </div>
-            </div>
-
-            <div className='px-[340px]'>
-                <div className='flex gap-6 my-[50px] '>
-                    <p>{t("courses.tags")}</p>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.marketing")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.development")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.hr")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.design")}</div>
-                    <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md px-[8px] py-[4px]'>{t("courses.management")}</div>
-                </div>
-                <div className='flex gap-6'>
-                    <p>{t("courses.share")}</p>
-                    <img src={facebook} alt="" />
-                    <img src={insta} alt="" />
-                    <img src={linkedin} alt="" />
-                    <img src={twitter} alt="" />
-                </div>
-            </div>
-
-            <div className='flex flex-col gap-[64px] py-[66px] px-[340px]'>
-                <hr className='h-[1px] border text-gray-500' />
-                <div className='flex gap-8'>
-                    <img className='h-[90px]' src={avatar} alt="" />
-                    <div className='flex flex-col'>
-                        <div className='flex'>
-                            <div className='flex flex-col'>
-                                <h1 className='w-[184px] text-2xl font-bold'>{t("courses.name2")}</h1>
-                                <p className='w-[184px] text-gray-500 text-[13px]'>{t("courses.curator")}</p>
-                            </div>
-                            <img className='h-[40px] ml-[250px] cursor-pointer' src={social} alt="" />
+                            Nam commodo suscipit quam. Vestibulum ullamcorper mauris at ligula.</p>
+                        <h1 className='text-[24px] font-bold leading-9 mt-10 dark:text-white'>Nullam accumsan lorem in</h1>
+                        <p className='mt-4 text-4 font-normal leading-7  w-[760px] dark:text-white'>
+                            Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum aliquam leo.
+                            Nam commodo suscipit quam. Vestibulum ullamcorper mauris at ligula.</p>
+                        <div className='flex my-20'>
+                            <img className='mx-[46px]' src={quotes} alt="" />
+                            <p className='text-[20px] font-medium leading-8 w-[554px] dark:text-white'>
+                                Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum aliquam leo.
+                            </p>
                         </div>
-                        <p className='my-4 text-gray-500 text-[13px]'>
-                            Integer tincidunt. Nullam dictum felis eu pede mollis pretium. Maecenas ullamcorper,
-                            dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem..
+                        <img className='rounded-2xl' src={laptop} alt="" />
+                        <p className='text-4 font-normal leading-7 my-[40px] w-[700px] dark:text-white'>
+                            Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum aliquam leo.
+                            Nam commodo suscipit quam. Vestibulum ullamcorper mauris at ligula.</p>
+                        <p className='text-4 font-normal leading-7 my-[40px] w-[680px] dark:text-white'>
+                            Pellentesque posuere. Phasellus a est. Suspendisse pulvinar, augue ac venenatis
+                            condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
+                            Phasellus viverra nulla ut metus varius laoreet. Praesent egestas tristique nibh.
                         </p>
-                        <p className='text-gray-400 text-[13px]'>{t("courses.yaer")}</p>
+                        <p className='text-4 font-normal leading-7 my-[40px] w-[700px] dark:text-white'>
+                            Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum aliquam leo.
+                            Nam commodo suscipit quam. Vestibulum ullamcorper mauris at ligula.
+                        </p>
                     </div>
                 </div>
-                <hr className='h-[1px] border text-gray-500' />
-            </div>
+                <div className='px-[100px]'>
+                    <div className='flex gap-6 my-[50px] '>
+                        <p className='dark:text-white'>{t("courses.tags")}</p>
+                        <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.marketing")}</div>
+                        <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.development")}</div>
+                        <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.hr")}</div>
+                        <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.design")}</div>
+                        <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.management")}</div>
+                    </div>
+                    <div className='flex gap-6'>
+                        <p className='dark:text-white'>{t("courses.share")}</p>
+                        <img src={facebook} alt="" />
+                        <img src={insta} alt="" />
+                        <img src={linkedin} alt="" />
+                        <img src={twitter} alt="" />
+                    </div>
+                </div>
 
+                <div className='flex flex-col gap-[64px] py-[66px] px-[100px]'>
+                    <hr className='h-[1px] border text-gray-500' />
+                    <div className='flex gap-8'>
+                        <img className='h-[90px]' src={avatar} alt="" />
+                        <div className='flex flex-col'>
+                            <div className='flex'>
+                                <div className='flex flex-col'>
+                                    <h1 className='w-[184px] text-2xl font-bold dark:text-white'>{t("courses.name2")}</h1>
+                                    <p className='w-[184px] text-gray-500 text-[13px] dark:text-white'>{t("courses.curator")}</p>
+                                </div>
+                                <img className='h-[40px] ml-[250px] cursor-pointer' src={social} alt="" />
+                            </div>
+                            <p className='my-4 text-gray-500 text-[13px] dark:text-white'>
+                                Integer tincidunt. Nullam dictum felis eu pede mollis pretium. Maecenas ullamcorper,
+                                dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem..
+                            </p>
+                            <p className='text-gray-400 text-[13px] dark:text-white'>{t("courses.yaer")}</p>
+                        </div>
+                    </div>
+                    <hr className='h-[1px] border text-gray-500' />
+                </div>
+            </div>
             <div className='py-[100px]'>
-                <LatestPost/>
+                <LatestPost />
             </div>
         </>
     )

@@ -20,7 +20,15 @@
 		"designer" :"UI Designer",
 		"manager": "Hr Manager",
 		"Leader": "Leader",
-		"project": "Project Manager"
+		"project": "Project Manager",
+		"founder": "Founder and CEO",
+		"analyst": "Analyst and Marketing specialist",
+		"curator": "PM, Curator of Management Course",
+		"HR": "Curator of HR & Recruiting Course",
+		"program": "Founder and Program Director",
+		"marketer": "Marketer, Curator of Marketing Course",
+		"of": "Marketer, Curator of Marketing Course",
+		"course": "UX Designer, Curator of Design Course"
 	},
 	"courses":{
 		"p": "8 minutes read",

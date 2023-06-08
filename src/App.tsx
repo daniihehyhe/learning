@@ -25,6 +25,7 @@ function App() {
           document.body.style.backgroundColor = '';
         };
       }, [theme]);
+      
   return (
     <div className={`${theme ? 'dark' : ''}`}>
       <Routes>
