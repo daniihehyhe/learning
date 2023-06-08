@@ -5,17 +5,18 @@ import { useRef } from "react"
 import next from '../featured/assets/prev.svg'
 import prev from '../featured/assets/next.svg'
 import vector from './assets/Vector.svg'
-import slide1 from './assets/img.svg' 
-import slide2 from './assets/img-1.svg' 
-import slide3 from './assets/cooper.svg' 
-import slide4 from './assets/img-2.svg' 
-import slide5 from './assets/img-3.svg' 
 import { studentData } from "../../../constants/sliderData";
+import Slider from "react-slick";
 
 function ImageSlider() {
   const arrowRef = useRef(null);
-  const slideData = [slide1Img, slide2Img, slide3Img, slide4Img, slide5Img];
-
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    arrows: false,
+  }
   return (
 
     <div className='lg:px-[144px] lg:py-[120px] px-[20px] py-[64px] md:px-[40px] md:py-[84px] bg-[#F9FAFB] dark:bg-[#919EAB1F]' >
@@ -27,7 +28,7 @@ function ImageSlider() {
             <button className="block md:absolute top-[200px] -right-[20px]" onClick={() => arrowRef.current.slickNext()}><img src={next} alt='Prev'/></button>
         </div>
          <div>
-            <Slider2 {...settings} ref={arrowRef}>
+            <Slider {...settings} ref={arrowRef}>
             {
                 studentData.map((item, index) => (
                    <div key={index}>
@@ -49,7 +50,7 @@ function ImageSlider() {
                    </div>
                 ))
             }
-            </Slider2>
+            </Slider>
          </div>
     </div>
   );

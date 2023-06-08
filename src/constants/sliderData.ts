@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import slider1 from '../components/main/featured/assets/slider1.svg'
 import slider2 from '../components/main/featured/assets/slider2.svg'
 import slider3 from '../components/main/featured/assets/slider3.svg'

@@ -70,5 +70,17 @@
 		"lesson":"Lessons",
 		"english":"English",
 		"qiuz":"Qiuzzes"
+	},
+	"main" :{
+		"free":"Free",
+		"online":"Online",
+		"Courses": "Courses",
+		"from" :"From The Experts",
+		"ready": "Ready Start",
+		"watch": "Watch Video",
+		"learn" : "Learners",
+		"course" : "Courses",
+		"graduate" : "Graduates" 
 	}
+	
 }

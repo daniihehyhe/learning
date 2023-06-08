@@ -8,7 +8,7 @@ import Connection from "../components/connection/Connection";
 import Teachers from '../components/main/teachers/Teachers'
 import LatestPost from '../components/main/latest/LatestPost'
 import Work from '../components/main/work/Work'
-
+import Slider from '../components/main/slider/Slider'
 
 
 export const CoursesLanding = () => {
@@ -23,7 +23,7 @@ export const CoursesLanding = () => {
       </div>
       <FeaturedCategory />
       <Teachers />
-      <Slider />
+      <Slider/>
       <LatestPost />
       <div className="container_global">
         <MobileBlock />
