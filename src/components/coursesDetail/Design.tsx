@@ -108,7 +108,6 @@ const Design:FC = () => {
             title="video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen>
-            asdfsd
           </iframe>
         </aside>
       </section>
