@@ -9,7 +9,7 @@ const Blog: FC = () => {
 		<div className='container_global'>
 			<Header/>
 		</div>
-		{/* <BlogPage/> */}
+		<BlogPage/>
 	</>
   )
 }
