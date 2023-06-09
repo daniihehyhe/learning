@@ -72,12 +72,12 @@ function Featured() {
               </div>
           </div>
         </div>
-        <div className='mt-20 pb-[80px]'>
+        <div className='mt-20'>
             <Slider {...settings} ref={arrowRef}>
                 {
                     sliderData.map((item) => (
-                        <div key={item.name} className="mx-auto">
-                            <div className='shadow-sliderShadow rounded-[16px] w-[335px] h-[703px] dark:shadow-none dark:bg-[#919EAB1F]'>
+                        <div key={item.name} className="mx-auto  pb-[80px]">
+                            <div className='border-[1px] rounded-[16px] w-[335px] h-[703px] dark:shadow-none dark:bg-[#919EAB1F]'>
                                 <img className='rounded-tr-[16px] rounded-tl-[16px]' src={item.img} alt="Slider" />
                                 <div className='flex justify-between items-center px-8 my-8'>
                                     <div className='font-semibold text-[#FA541C] text-[12px] uppercase'>Management</div>

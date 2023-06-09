@@ -10,7 +10,7 @@ function FeaturedCategory() {
                 <div className='text-[#637381] mt-2 font-regular text-center text-[16px] lg:text-left dark:text-[#919EAB]'>Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases</div>
                 <button className='bg-[#FA541C] px-[22px] py-[11px] rounded-[8px] mt-[40px] mx-auto text-[15px] font-semibold text-white block lg:mx-0'>Explore more</button>
             </div>
-            <div className='mt-[64px] flex flex-wrap justify-between gap-[16px] lg:w-[662px] lg:mt-0'> 
+            <div className='mt-[64px] flex flex-wrap justify-between gap-[16px] lg:w-[662px] lg:justify-center lg:mt-0'> 
                 {
                     categoryData.map((item,index) => (
                         <div key={index} className='w-[155px] h-[130px] rounded-[12px] bg-white border-solid border-[1px] border-[#919EAB3D] lg:hover:text-[#FA541C] cursor-pointer p-[24px]  lg:w-[205px] lg:h-[108px] lg:bg-[#F9FAFB] lg:hover:bg-white lg:hover:shadow-category dark:bg-[#919EAB1F] dark:hover:bg-[#212B36] dark:hover:border-none dark:hover:shadow-none'>

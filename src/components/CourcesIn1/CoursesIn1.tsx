@@ -127,9 +127,10 @@ function CoursesIn1() {
                         </div>
                     </div>
                 </div>
-
                 <div className='px-[100px] max-[840px]:px-[10px]'>
                     <div className='flex gap-6 my-[50px] flex-wrap'>
+                <div className='px-[100px]'>
+                    <div className='flex gap-6 my-[50px] '>
                         <p className='dark:text-white'>{t("courses.tags")}</p>
                         <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.marketing")}</div>
                         <div className='cursor-pointer text-[14px] bg-gray-100 text-gray-700 rounded-md'>{t("courses.development")}</div>
