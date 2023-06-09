@@ -42,8 +42,6 @@ function ContactPage() {
             img: social4,
             href: 'https://www.twitter.com/'
         },
-        
-
     ]
   return (
     <div>

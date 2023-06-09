@@ -52,8 +52,10 @@ function BlogPage() {
     item.title.toLowerCase().includes(filterValue.toLowerCase())
     );
 
+
     
     const liData = ['Marketing', 'Community', 'Tutorials', 'Business', 'Management']
+    const filterLI = liData.map((item) => item)
     const tagData = ['Marketing', 'Development', 'Banking', 'HR & Recruting', 'Design' , 'Management', 'Business', 'Community', 'Tutorials']
   return (
     <>

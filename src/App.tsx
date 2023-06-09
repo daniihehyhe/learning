@@ -30,7 +30,7 @@ function App() {
     <div className={`${theme ? 'dark' : ''}`}>
       <Routes>
         <Route path="/" element={<CoursesLanding />} />
-        <Route path="/Blog" element={<Blog />} />
+        <Route path="/Blog" element={<Blog/>} />
         <Route path="/BlogDetail" element={<BlogDeatal />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />

@@ -42,6 +42,7 @@ export default {
         'playShadow': '0px 8px 16px rgba(34, 184, 207, 0.24)',
         'sliderShadow': '-16px 16px 56px -8px rgba(145, 158, 171, 0.16)',
         'category': '-24px 24px 72px -8px rgba(145, 158, 171, 0.24)',
+        'list':"-16px 16px 56px -8px rgba(145, 158, 171, 0.16)"
       },
     },
   },
